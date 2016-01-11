@@ -1,8 +1,8 @@
 {
-  "name": "sage",
-  "homepage": "https://roots.io/sage/",
+  "name": "mytemplate",
+  "homepage": "",
   "authors": [
-    "Ben Word <ben@benword.com>"
+   
   ],
   "license": "MIT",
   "private": true,

@@ -1,15 +1,15 @@
 {
-  "name": "sage",
-  "version": "8.4.0",
-  "author": "Ben Word <ben@benword.com>",
-  "homepage": "https://roots.io/sage/",
+  "name": "mytemplate",
+  "version": "0.0.1",
+  "author": "Anni Dai <anni.d@anewmedia.ca>",
+  "homepage": "https://github.com/Annieday",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/roots/sage.git"
+    "url": "git://github.com/Annieday/myTemplate.git"
   },
   "bugs": {
-    "url": "https://github.com/roots/sage/issues"
+    "url": "https://github.com/Annieday/myTemplate/issues"
   },
   "licenses": [
     {

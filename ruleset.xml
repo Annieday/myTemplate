@@ -33,6 +33,7 @@
     <exclude-pattern>page.php</exclude-pattern>
     <exclude-pattern>single.php</exclude-pattern>
     <exclude-pattern>template-custom.php</exclude-pattern>
+    <exclude-pattern>template-product.php</exclude-pattern>
   </rule>
 
   <!-- Force 2 spaces indentation -->
