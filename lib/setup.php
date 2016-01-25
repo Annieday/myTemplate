@@ -17,7 +17,7 @@ function setup() {
     add_theme_support('soil-relative-urls');
 
     // Make theme available for translation
-    // Community translations can be found at https://github.com/roots/sage-translations
+
     load_theme_textdomain('mytemplate', get_template_directory() . '/lang');
 
     // Enable plugins to manage the document title

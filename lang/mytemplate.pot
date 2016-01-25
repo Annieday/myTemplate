@@ -9,8 +9,8 @@ msgstr ""
 
 #: base.php:14
 msgid ""
-"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
-"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+"You are using an <strong>outdated</strong> browser. Please upgrade your browser
+ to improve your experience."
 msgstr ""
 
 #: functions.php:22

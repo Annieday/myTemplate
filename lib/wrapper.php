@@ -5,7 +5,6 @@ namespace Roots\myTemplate\Wrapper;
 /**
  * Theme wrapper
  *
- * @link https://roots.io/sage/docs/theme-wrapper/
  * @link http://scribu.net/wordpress/theme-wrappers.html
  */
 
@@ -13,8 +12,8 @@ function template_path() {
   return MytemplateWrapping::$main_template;
 }
 
-function sidebar_path() {
-  return new MytemplateWrapping('templates/sidebar.php');
+function sidebar_primary_path() {
+  return new MytemplateWrapping('templates/sidebar-primary.php');
 }
 
 class MytemplateWrapping {

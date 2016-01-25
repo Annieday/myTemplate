@@ -7,7 +7,7 @@
  *
  * Please note that missing files will produce a fatal error.
  *
- * @link https://github.com/roots/sage/pull/1042
+ * @link 
  */
 $mytemplate_includes = [
   'lib/assets.php',    // Scripts and stylesheets
