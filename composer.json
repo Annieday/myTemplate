@@ -1,25 +1,24 @@
 {
-  "name": "roots/mytemplate",
-  "type": "wordpress-theme",
-  "license": "MIT",
-  "description": "The best WordPress starter theme with a modern front-end development workflow. Based on HTML5 Boilerplate, gulp, Bower, and Bootstrap.",
-  "homepage": "https://github.com/annieday",
-  "authors": [
-    {
-      "name": "Anni Dai",
-      "email": "anni.d@anewmedia.ca",
-      "homepage": "https://github.com/annieday"
-    }
+    "name": "roots/mytemplate",
+    "type": "wordpress-theme",
+    "license": "MIT",
+    "description": "The best WordPress starter theme with a modern front-end development workflow. Based on HTML5 Boilerplate, gulp, Bower, and Bootstrap.",
+    "homepage": "https://github.com/annieday",
+    "authors": [
+        {
+            "name": "Anni Dai",
+            "email": "anni.d@anewmedia.ca",
+            "homepage": "https://github.com/annieday"
+        }
 
-  ],
-  "keywords": [
-    "wordpress"
-  ],
-  "support": {
-    
-  },
-  "require": {
-    "php": ">=5.4.0",
-    "composer/installers": "~1.0"
-  }
+    ],
+    "keywords": [
+        "wordpress"
+    ],
+    "support": {
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "composer/installers": "~1.0"
+    }
 }

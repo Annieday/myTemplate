@@ -8,14 +8,6 @@ use Roots\myTemplate\Assets;
  * Theme setup
  */
 function setup() {
-    // Enable features from Soil when plugin is activated
-    // https://roots.io/plugins/soil/
-    add_theme_support('soil-clean-up');
-    add_theme_support('soil-nav-walker');
-    add_theme_support('soil-nice-search');
-    add_theme_support('soil-jquery-cdn');
-    add_theme_support('soil-relative-urls');
-
     // Make theme available for translation
 
     load_theme_textdomain('mytemplate', get_template_directory() . '/lang');
@@ -28,7 +20,6 @@ function setup() {
     // http://codex.wordpress.org/Function_Reference/register_nav_menus
     register_nav_menus([
         'primary_navigation' => __('Primary Navigation', 'mytemplate'),
-        'utility_navigation' => __('Utility Navigation', 'mytemplate'),
         'footer_navigation' => __('Footer Navigation', 'mytemplate')
     ]);
 
@@ -60,26 +51,25 @@ add_action('after_setup_theme', __NAMESPACE__ . '\\setup');
  */
 function widgets_init() {
     register_sidebar([
-        'name' => __('Primary', 'mytemplate'),
-        'id' => 'sidebar-primary',
+        'name' => __('Sidebar Right', 'mytemplate'),
+        'id' => 'sidebar-right',
+        'before_widget' => '<section class="widget %1$s %2$s">',
+        'after_widget' => '</section>',
+        'before_title' => '<h3>',
+        'after_title' => '</h3>'
+    ]);
+    register_sidebar([
+        'name' => __('Sidebar Left', 'mytemplate'),
+        'id' => 'sidebar-left',
         'before_widget' => '<section class="widget %1$s %2$s">',
         'after_widget' => '</section>',
         'before_title' => '<h3>',
         'after_title' => '</h3>'
     ]);
 
-    register_sidebar([
-        'name' => __('Footer', 'mytemplate'),
+    register_sidebars(3, [
+        'name' => __('Sidebar Footer %d', 'mytemplate'),
         'id' => 'sidebar-footer',
-        'before_widget' => '<section class="widget %1$s %2$s">',
-        'after_widget' => '</section>',
-        'before_title' => '<h3>',
-        'after_title' => '</h3>'
-    ]);
-
-    register_sidebar([
-        'name' => __('Blog', 'mytemplate'),
-        'id' => 'sidebar-blog',
         'before_widget' => '<section class="widget %1$s %2$s">',
         'after_widget' => '</section>',
         'before_title' => '<h3>',
@@ -90,19 +80,35 @@ function widgets_init() {
 add_action('widgets_init', __NAMESPACE__ . '\\widgets_init');
 
 /**
- * Determine which pages should display the sidebar
+ * Determine which pages should display the right sidebar
  */
-function display_sidebar() {
+function display_right_sidebar() {
     static $display;
 
-    isset($display) || $display = in_array(true, [
-                // The sidebar will NOT be displayed if ANY of the following return true.
-                // @link https://codex.wordpress.org/Conditional_Tags
-                is_home(),
+    isset($display) || $display = in_array(false, [
+        // The sidebar will NOT be displayed if ANY of the following return true.
+        // @link https://codex.wordpress.org/Conditional_Tags
+        is_home(),
     ]);
 
-    return apply_filters('mytemplate/display_sidebar', $display);
+    return apply_filters('mytemplate/display_right_sidebar', $display);
 }
+
+/**
+ * Determine which pages should display the sidebar
+ */
+function display_left_sidebar() {
+    static $display;
+
+    isset($display) || $display = in_array(false, [
+        // The sidebar will NOT be displayed if ANY of the following return true.
+        // @link https://codex.wordpress.org/Conditional_Tags
+        is_home(),
+    ]);
+
+    return apply_filters('mytemplate/display_left_sidebar', $display);
+}
+
 
 /**
  * Theme assets
