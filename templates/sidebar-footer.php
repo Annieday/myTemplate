@@ -23,7 +23,7 @@ if (is_active_sidebar('sidebar-footer') ||
     if (is_active_sidebar('sidebar-footer')):
         ?>
         <div class="site-footer-widget-area">
-            <div class="site-footer-widget-1">
+            <div class="site-footer-widget" id="site-footer-widget-1">
                 <?php dynamic_sidebar('sidebar-footer'); ?>
             </div>
         </div>
@@ -33,7 +33,7 @@ if (is_active_sidebar('sidebar-footer') ||
         if (is_active_sidebar('sidebar-footer-' . $col)) :
             ?>
             <div class="site-footer-widget-area">
-                <div class="site-footer-widget-<?php $col ?>">
+                <div class="site-footer-widget" id="site-footer-widget-<?php echo $col?>">
                     <?php dynamic_sidebar('sidebar-footer-' . $col);
                     ?>
                 </div>

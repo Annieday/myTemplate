@@ -1,0 +1,9 @@
+.sticky-header {
+  position: fixed;
+  top: 0;
+  
+  @include admin-sticky-fix;
+}
+.navbar-custom {
+    z-index: 999999;
+}

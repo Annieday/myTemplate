@@ -1,0 +1,15 @@
+.site-footer-widget-area {
+    @include make-sm-column($col-3);
+    @include center-block();
+}
+
+.site-footer-widget{
+    text-align: center;
+    section {
+        display: inline-block;
+    }
+    ul {
+        text-align: left;
+        padding-left: 0;
+    }
+}
