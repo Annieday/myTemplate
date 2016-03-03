@@ -2,6 +2,8 @@
     "dependencies": {
         "main.js": {
             "files": [
+                "scripts/common/skip-link-focus.js",
+                "scripts/components/navigation.js",
                 "scripts/main.js"
             ],
             "main": true
@@ -17,11 +19,14 @@
                 "scripts/customizer.js"
             ]
         },
+        "modernizr.js": {
+            "bower": ["modernizr"]
+        },
         "jquery.js": {
             "bower": ["jquery"]
         }
     },
     "config": {
-        "devUrl": "http://example.dev"
+        "devUrl": "http://mytemplate.sites.dev"
     }
 }

@@ -5,6 +5,9 @@
  *Colors and Typography
  *Other
 */
+*:before{
+    box-sizing: content-box!important;
+}
 @mixin admin-sticky-fix( $offset: 0 ) {
   $narrow-offset: 46px;
   $wide-offset: 32px;
@@ -20,6 +23,6 @@
   }
 }
 
-.navbar-custom {
-    
+.navbar-custom ul>li{
+    display: inline-table;
 }

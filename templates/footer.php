@@ -11,9 +11,10 @@
             <div class="container">
                 <?php
                 if (has_nav_menu('footer_navigation')) :
-                    wp_nav_menu(['theme_location' => 'footer_navigation',
-                                 'container_class' => 'collapse navbar-collapse',
-                                 'menu_class' => 'nav pull-left']);
+                    wp_nav_menu(array(
+                                'theme_location' => 'footer_navigation',
+                                'container_class' => 'collapse navbar-collapse',
+                                'menu_class' => 'nav pull-left'));
                 endif;
                 ?>
             </div>
