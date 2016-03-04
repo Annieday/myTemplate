@@ -1,13 +1,15 @@
 <header class="banner">
 
-    <nav class="navbar navbar-custom sticky-header nav-primary" role="navigation">
+    <nav class="navbar navbar-custom nav-primary" role="navigation">
         <div class="container-fluid nav-container">
             <div class="brand navbar-header">
                 <a class="navbar-brand" href="<?= esc_url(home_url('/')); ?>">
                     <?php bloginfo('name'); ?>
                 </a>
             </div>
-            <div id="cssmenu">
+            <div class="cssmenu header-menu">
+                <div id='menu-line'></div>
+                <div class="menu-button"></div>
                 <?php
                 if (has_nav_menu('primary_navigation')) :
                     wp_nav_menu(array(
