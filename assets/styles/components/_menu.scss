@@ -1,6 +1,7 @@
 .navbar-custom {
     width: 100%;
     top: 0;
+    z-index: 999999;
     border-radius: 0 !important;
     margin-bottom: 0;
     transition: all 0.5s ease-in-out;
@@ -9,12 +10,17 @@
     -o-transition: all 0.5s ease-in-out;
     .brand {
         display: inline-block;
-        height: 70px;
-        a {
-            line-height: 40px;
-        }
     }
-    
+}
+
+.navbar .brand a,
+.navbar .cssmenu ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    .sticky-header & {
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
 }
 
 .cssmenu {
@@ -31,15 +37,12 @@
     padding: 0;
     border: 0;
     list-style: none;
-    line-height: 30px;
+    line-height: 1;
     display: block;
     position: relative;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    .sticky-header & {
-        line-height: 1;
-    }
 }
 
 .cssmenu:after,
@@ -58,7 +61,6 @@
 
 .cssmenu {
     width: auto;
-    font-family: 'Open Sans', sans-serif;
     line-height: 1;
     background: transparent;
 }
@@ -103,7 +105,7 @@
 }
 
 .cssmenu > ul > li > a {
-    padding: 20px;
+    padding: 19px;
     font-size: 12px;
     text-decoration: none;
     text-transform: uppercase;
@@ -254,9 +256,12 @@
     border-color: #ababab;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 783px) {
     header .navbar-custom {
         position: fixed;
+    }
+    .cssmenu {
+        float: right !important;
     }
     .cssmenu ul {
         width: 100%;
@@ -278,6 +283,7 @@
         width: 100%;
     }
     .cssmenu > ul > li,
+    .cssmenu ul ul a,
     .cssmenu.align-center > ul > li,
     .cssmenu.align-right > ul > li {
         display: block;

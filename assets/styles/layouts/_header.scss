@@ -1,4 +1,4 @@
-.sticky-header {
+#header.sticky-header {
     top: 0;
     width: 100%;
     height: 54px;
@@ -14,6 +14,6 @@
     -o-transition: all 0.5s ease-in-out;
     @include admin-sticky-fix;
 }
-header {
+#header {
     height: 72px;
 }

@@ -25,10 +25,10 @@
                 // JavaScript to be fired on all pages, after page specific JS is fired
                 jQuery(document).ready(function ($) {
                     $(window).scroll(function () {
-                        if ($(window).scrollTop() > 50) {
-                            $('header').addClass('sticky-header');
+                        if ($(window).scrollTop() > 30) {
+                            $('#header').addClass('sticky-header');
                         } else {
-                            $('header').removeClass('sticky-header');
+                            $('#header').removeClass('sticky-header');
                         }
                     });
                 });

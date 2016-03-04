@@ -4,6 +4,7 @@
             "files": [
                 "scripts/common/skip-link-focus.js",
                 "scripts/components/navigation.js",
+                "scripts/common/anchor-scripts.js"
                 "scripts/main.js"
             ],
             "main": true
