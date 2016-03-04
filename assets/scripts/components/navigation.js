@@ -10,7 +10,8 @@
             }, options);
 
         return this.each(function () {
-            $(this).find(".menu-button").on('click', function () {
+            cssmenu.prepend('<div id="menu-button">' + settings.title + '</div>');
+            $(this).find("#menu-button").on('click', function () {
                 $(this).toggleClass('menu-opened');
                 var mainmenu = $(this).next('ul');
                 if (mainmenu.hasClass('open')) {
@@ -27,14 +28,14 @@
 
             multiTg = function () {
                 cssmenu.find(".has-sub").prepend('<span class="submenu-button"></span>');
-                cssmenu.find('.submenu-button').off('click').on('click', function () {
+                cssmenu.find('.submenu-button').on('click', function () {
                     $(this).toggleClass('submenu-opened');
                     if ($(this).siblings('ul').hasClass('open')) {
                         $(this).siblings('ul').removeClass('open').hide();
                     } else {
                         $(this).siblings('ul').addClass('open').show();
                     }
-                }); 
+                });
             };
 
             if (settings.format === 'multitoggle') multiTg();
@@ -62,17 +63,19 @@
     $(document).ready(function () {
 
         $(document).ready(function () {
-            $(".cssmenu").menumaker({
+            $("#cssmenu").menumaker({
                 title: "",
                 format: "multitoggle"
             });
-            
+
+            $("#cssmenu").prepend("<div id='menu-line'></div>");
+
             var foundActive = false,
                 activeElement, linePosition = 0,
-                menuLine = $(".header-menu #menu-line"),
+                menuLine = $("#cssmenu #menu-line"),
                 lineWidth, defaultPosition, defaultWidth;
 
-            $(".header-menu > ul > li").each(function () {
+            $("#cssmenu > ul > li").each(function () {
                 if ($(this).hasClass('active')) {
                     activeElement = $(this);
                     foundActive = true;
@@ -80,7 +83,7 @@
             });
 
             if (foundActive === false) {
-                activeElement = $(".header-menu > ul > li").first();
+                activeElement = $("#cssmenu > ul > li").first();
             }
 
             defaultWidth = lineWidth = activeElement.width();
@@ -90,7 +93,7 @@
             menuLine.css("width", lineWidth);
             menuLine.css("left", linePosition);
 
-            $(".header-menu > ul > li").hover(function () {
+            $("#cssmenu > ul > li").hover(function () {
                     activeElement = $(this);
                     lineWidth = activeElement.width();
                     linePosition = activeElement.position().left;

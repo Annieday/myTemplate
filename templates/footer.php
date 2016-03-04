@@ -1,43 +1,36 @@
 <footer class="site-footer content-info">
 
-    <div class="site-footer-container container-fluid">
-        <div class="row">
-            <div class="site-footer-widgets col-sm-12">
-                <div class="container">
-                    <div class="row">
-                        <?php get_template_part('templates/sidebar-footer'); ?>
-                    </div>
-                </div>
-            </div>
-            <!-- /footer-widgets -->
+    <div class="site-footer-container container">
 
-            <nav class="site-nav-footer navbar navbar-custom col-sm-12" role="navigation">
-                <div class="cssmenu footer-menu">
-                    <div class="menu-button"></div>
-                    <?php
-                        if (has_nav_menu('footer_navigation')) :
-                        wp_nav_menu(array(
-                                    'container'       => '',
-                                    'container_class' => false,
-                                    'theme_location' => 'footer_navigation',
-                                    ));
-                    endif;
-                    ?>
-                </div>
-            </nav>
-            <!-- /footer-navigation -->
-
-            <div class="site-info col-sm-12">
-
-                <p>
-                    <?php bloginfo('name'); ?> - &copy;
-                        <?php echo date('Y'); ?>
-                </p>
-
-            </div>
-            <!-- .site-info -->
+        <div class="site-footer-widgets row">
+            <?php get_template_part('templates/sidebar-footer'); ?>
         </div>
-        <!-- .row -->
+        <!-- /footer-widgets -->
+
+        <nav class="navbar navbar-custom nav-footer" role="navigation">
+            <div class="container">
+                <?php
+                if (has_nav_menu('footer_navigation')) :
+                    wp_nav_menu(array(
+                                'theme_location' => 'footer_navigation',
+                                'container_class' => 'collapse navbar-collapse',
+                                'menu_class' => 'nav pull-left'));
+                endif;
+                ?>
+            </div>
+        </nav>
+        <!-- /footer-navigation -->
+
+        <div class="site-info">
+
+            <p>
+                <?php bloginfo('name'); ?> - &copy;
+                    <?php echo date('Y'); ?>
+            </p>
+
+        </div>
+        <!-- .site-info -->
+
     </div>
     <!-- .site-footer-container -->
 

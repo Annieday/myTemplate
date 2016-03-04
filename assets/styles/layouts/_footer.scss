@@ -1,10 +1,9 @@
-
 .site-footer-widget-area {
     @include make-sm-column($col-3);
     @include center-block();
 }
 
-.site-footer-widget {
+.site-footer-widget{
     text-align: center;
     section {
         display: inline-block;
