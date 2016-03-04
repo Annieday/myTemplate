@@ -1,4 +1,3 @@
-
 .site-footer-widget-area {
     @include make-sm-column($col-3);
     @include center-block();
@@ -13,4 +12,29 @@
         text-align: left;
         padding-left: 0;
     }
+}
+
+.footer-menu ul ul {
+    top: -100%;
+    z-index: 9999999;
+}
+
+.footer-menu ul ul ul {
+    margin-left: 100%;
+}
+
+.footer-menu ul ul li.has-sub > a::after {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.footer-menu {
+    float: left;
+}
+
+.site-info {
+    text-align: center;
 }

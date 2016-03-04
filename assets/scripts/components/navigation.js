@@ -34,13 +34,18 @@
                     } else {
                         $(this).siblings('ul').addClass('open').show();
                     }
-                }); 
+                });
             };
 
-            if (settings.format === 'multitoggle') multiTg();
-            else cssmenu.addClass('dropdown');
+            if (settings.format === 'multitoggle') {
+                multiTg();
+            } else {
+                cssmenu.addClass('dropdown');
+            }
 
-            if (settings.sticky === true) cssmenu.css('position', 'fixed');
+            if (settings.sticky === true) {
+                cssmenu.css('position', 'fixed');
+            }
 
             resizeFix = function () {
                 if ($(window).width() > 768) {
@@ -66,7 +71,7 @@
                 title: "",
                 format: "multitoggle"
             });
-            
+
             var foundActive = false,
                 activeElement, linePosition = 0,
                 menuLine = $(".header-menu #menu-line"),

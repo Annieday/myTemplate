@@ -7877,8 +7877,8 @@ button.close {
 
 /* line 1, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .navbar-custom {
-  z-index: 999999;
   width: 100%;
+  top: 0;
   border-radius: 0 !important;
   margin-bottom: 0;
   transition: all 0.5s ease-in-out;
@@ -7887,26 +7887,18 @@ button.close {
   -o-transition: all 0.5s ease-in-out; }
   /* line 10, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   .navbar-custom .brand {
-    display: inline-block; }
+    display: inline-block;
+    height: 70px; }
+    /* line 13, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+    .navbar-custom .brand a {
+      line-height: 40px; }
 
-/* line 15, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
-.sticky-header .navbar-custom {
-  height: 50px;
-  background: white;
-  -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
-  -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
-  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4); }
-
-/* line 23, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
-.nav-container {
-  width: 100% !important; }
-
-/* line 27, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 20, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu {
   float: right;
   display: inline-block; }
 
-/* line 36, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 29, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu,
 .cssmenu ul,
 .cssmenu ul li,
@@ -7916,14 +7908,21 @@ button.close {
   padding: 0;
   border: 0;
   list-style: none;
-  line-height: 1;
+  line-height: 30px;
   display: block;
   position: relative;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
+  /* line 40, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+  .sticky-header .cssmenu,
+  .sticky-header .cssmenu ul,
+  .sticky-header .cssmenu ul li,
+  .sticky-header .cssmenu ul li a,
+  .sticky-header .cssmenu .menu-button {
+    line-height: 1; }
 
-/* line 50, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 46, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu:after,
 .cssmenu > ul:after {
   content: ".";
@@ -7933,19 +7932,19 @@ button.close {
   line-height: 0;
   height: 0; }
 
-/* line 59, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 55, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu .menu-button {
   display: none; }
 
-/* line 63, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 59, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu {
   width: auto;
   font-family: 'Open Sans', sans-serif;
   line-height: 1;
   background: transparent; }
 
-/* line 70, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
-.menu-line {
+/* line 66, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+#menu-line {
   position: absolute;
   top: 0;
   left: 0;
@@ -7957,33 +7956,33 @@ button.close {
   -o-transition: all 0.25s ease-out;
   transition: all 0.25s ease-out; }
 
-/* line 83, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 79, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu > ul > li {
   float: left; }
 
-/* line 87, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 83, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu.align-center > ul {
   font-size: 0;
   text-align: center; }
 
-/* line 92, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 88, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu.align-center > ul > li {
   display: inline-block;
   float: none; }
 
-/* line 97, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 93, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu.align-center ul ul {
   text-align: left; }
 
-/* line 101, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 97, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu.align-right > ul > li {
   float: right; }
 
-/* line 105, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 101, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu.align-right ul ul {
   text-align: right; }
 
-/* line 109, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 105, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu > ul > li > a {
   padding: 20px;
   font-size: 12px;
@@ -7996,16 +7995,16 @@ button.close {
   -o-transition: color 0.2s ease;
   transition: color 0.2s ease; }
 
-/* line 123, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 119, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu > ul > li:hover > a,
 .cssmenu > ul > li.active > a {
   color: #009ae1; }
 
-/* line 127, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 123, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu > ul > li.has-sub > a {
   padding-right: 25px; }
 
-/* line 131, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 127, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu > ul > li.has-sub > a::after {
   position: absolute;
   top: 21px;
@@ -8026,39 +8025,36 @@ button.close {
   -o-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease; }
 
-/* line 152, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 148, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu > ul > li.has-sub:hover > a::after {
   border-color: #009ae1; }
 
-/* line 156, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 152, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu ul ul a {
   display: none; }
 
-/* line 160, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 156, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu ul ul {
   position: absolute;
   display: none;
+  z-index: 9999999;
   left: -9999px;
   -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1); }
 
-/* line 169, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
-.footer-menu ul ul {
-  margin-top: -100% !important; }
-
-/* line 173, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 166, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu li:hover > ul {
   left: auto; }
-  /* line 175, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+  /* line 168, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   .cssmenu li:hover > ul a {
     display: block; }
 
-/* line 180, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 173, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu.align-right li:hover > ul {
   right: 0; }
 
-/* line 184, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 177, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu ul ul ul {
   margin-left: -100%;
   top: 0;
@@ -8066,12 +8062,12 @@ button.close {
   -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4); }
 
-/* line 193, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 186, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu.align-right ul ul ul {
   margin-left: 0;
   margin-right: 100%; }
 
-/* line 198, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 191, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu ul ul li {
   height: 0;
   -webkit-transition: height 0.2s ease;
@@ -8080,11 +8076,11 @@ button.close {
   -o-transition: height 0.2s ease;
   transition: height 0.2s ease; }
 
-/* line 207, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 200, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu ul li:hover > ul > li {
   height: 32px; }
 
-/* line 211, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 204, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu ul ul li a {
   padding: 10px 20px;
   width: 130px;
@@ -8098,12 +8094,12 @@ button.close {
   -o-transition: color 0.2s ease;
   transition: color 0.2s ease; }
 
-/* line 226, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 219, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu ul ul li:hover > a,
 .cssmenu ul ul li a:hover {
   color: #ababab; }
 
-/* line 230, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 223, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu ul ul li.has-sub > a::after {
   position: absolute;
   top: 13px;
@@ -8124,7 +8120,7 @@ button.close {
   -o-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease; }
 
-/* line 251, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 244, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu.align-right ul ul li.has-sub > a::after {
   right: auto;
   left: 10px;
@@ -8133,52 +8129,52 @@ button.close {
   border-top: 1px solid #dddddd;
   border-left: 1px solid #dddddd; }
 
-/* line 260, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 253, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu ul ul li.has-sub:hover > a::after {
   border-color: #ababab; }
 
 @media all and (max-width: 768px) {
-  /* line 265, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+  /* line 258, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   header .navbar-custom {
     position: fixed; }
-  /* line 268, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+  /* line 261, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   .cssmenu ul {
     width: 100%;
     display: none; }
-  /* line 273, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+  /* line 266, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   .cssmenu.align-center > ul,
   .cssmenu.align-right ul ul {
     text-align: left; }
-  /* line 278, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+  /* line 271, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   .cssmenu ul li,
   .cssmenu ul ul li,
   .cssmenu ul li:hover > ul > li {
     width: 100%;
     height: auto;
     border-top: 1px solid rgba(120, 120, 120, 0.15); }
-  /* line 284, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+  /* line 277, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   .cssmenu ul li a,
   .cssmenu ul ul li a {
     width: 100%; }
-  /* line 289, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+  /* line 282, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   .cssmenu > ul > li,
   .cssmenu.align-center > ul > li,
   .cssmenu.align-right > ul > li {
     display: block; }
-  /* line 292, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+  /* line 285, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   .cssmenu ul ul li a {
     padding: 20px 20px 20px 30px;
     font-size: 12px;
     color: #000000;
     background: transparent; }
-  /* line 299, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+  /* line 292, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   .cssmenu ul ul li:hover > a,
   .cssmenu ul ul li a:hover {
     color: #000000; }
-  /* line 302, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+  /* line 295, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   .cssmenu ul ul ul li a {
     padding-left: 40px; }
-  /* line 306, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+  /* line 299, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   .cssmenu ul ul,
   .cssmenu ul ul ul {
     position: relative;
@@ -8189,17 +8185,14 @@ button.close {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none; }
-  /* line 316, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
-  .footer-menu ul ul {
-    margin-top: 0 !important; }
-  /* line 320, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+  /* line 310, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   .cssmenu > ul > li.has-sub > a::after,
   .cssmenu ul ul li.has-sub > a::after {
     display: none; }
-  /* line 323, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
-  .menu-line {
+  /* line 313, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+  #menu-line {
     display: none; }
-  /* line 326, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+  /* line 316, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   .cssmenu .menu-button {
     display: block;
     padding: 25px;
@@ -8207,7 +8200,7 @@ button.close {
     cursor: pointer;
     font-size: 12px;
     text-transform: uppercase; }
-  /* line 334, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+  /* line 324, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   .cssmenu .menu-button::after {
     content: '';
     position: absolute;
@@ -8217,7 +8210,7 @@ button.close {
     width: 15px;
     height: 2px;
     background: #000000; }
-  /* line 344, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+  /* line 334, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   .cssmenu .menu-button::before {
     content: '';
     position: absolute;
@@ -8228,7 +8221,7 @@ button.close {
     height: 3px;
     border-top: 2px solid #000000;
     border-bottom: 2px solid #000000; }
-  /* line 355, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+  /* line 345, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   .cssmenu .submenu-button {
     position: absolute;
     z-index: 10;
@@ -8239,7 +8232,7 @@ button.close {
     height: 52px;
     width: 52px;
     cursor: pointer; }
-  /* line 366, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+  /* line 356, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   .cssmenu .submenu-button::after {
     content: '';
     position: absolute;
@@ -8250,7 +8243,7 @@ button.close {
     height: 11px;
     background: #000000;
     z-index: 99; }
-  /* line 377, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+  /* line 367, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   .cssmenu .submenu-button::before {
     content: '';
     position: absolute;
@@ -8261,16 +8254,25 @@ button.close {
     height: 1px;
     background: #000000;
     z-index: 99; }
-  /* line 388, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+  /* line 378, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   .cssmenu .submenu-button.submenu-opened:after {
     display: none; } }
 
 /* line 1, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_header.scss */
 .sticky-header {
-  position: fixed;
   top: 0;
   width: 100%;
-  z-index: 999999; }
+  height: 54px;
+  z-index: 999999;
+  position: fixed;
+  background: white;
+  -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out; }
   /* line 18, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/common/_global.scss */
   .admin-bar .sticky-header {
     top: 46px; }
@@ -8279,7 +8281,11 @@ button.close {
       .admin-bar .sticky-header {
         top: 32px; } }
 
-/* line 2, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
+/* line 17, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_header.scss */
+header {
+  height: 72px; }
+
+/* line 1, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
 .site-footer-widget-area {
   position: relative;
   min-height: 1px;
@@ -8289,21 +8295,46 @@ button.close {
   margin-left: auto;
   margin-right: auto; }
   @media (min-width: 768px) {
-    /* line 2, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
+    /* line 1, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
     .site-footer-widget-area {
       float: left;
       width: 33.33333%; } }
 
-/* line 7, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
+/* line 6, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
 .site-footer-widget {
   text-align: center; }
-  /* line 9, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
+  /* line 8, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
   .site-footer-widget section {
     display: inline-block; }
-  /* line 12, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
+  /* line 11, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
   .site-footer-widget ul {
     text-align: left;
     padding-left: 0; }
+
+/* line 17, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
+.footer-menu ul ul {
+  top: -100%;
+  z-index: 9999999; }
+
+/* line 22, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
+.footer-menu ul ul ul {
+  margin-left: 100%; }
+
+/* line 26, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
+.footer-menu ul ul li.has-sub > a::after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
+
+/* line 34, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
+.footer-menu {
+  float: left; }
+
+/* line 38, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
+.site-info {
+  text-align: center; }
 
 /* line 1, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_tinymce.scss */
 body#tinymce {
