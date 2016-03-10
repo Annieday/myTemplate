@@ -7850,39 +7850,6 @@ body {
         float: left;
         width: 25%; } }
 
-/* line 5, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_wp-classes.scss */
-.alignnone {
-  margin-left: 0;
-  margin-right: 0;
-  max-width: 100%;
-  height: auto; }
-
-/* line 11, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_wp-classes.scss */
-.aligncenter {
-  display: block;
-  margin: 10px auto;
-  height: auto; }
-
-/* line 17, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_wp-classes.scss */
-.alignleft,
-.alignright {
-  margin-bottom: 10px;
-  height: auto; }
-
-@media (min-width: 768px) {
-  /* line 23, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_wp-classes.scss */
-  .alignleft {
-    float: left;
-    margin-right: 10px; }
-  /* line 27, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_wp-classes.scss */
-  .alignright {
-    float: right;
-    margin-left: 10px; } }
-
-/* line 37, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_wp-classes.scss */
-.wp-caption-text {
-  padding: 9px; }
-
 /* line 1, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .navbar-custom {
   width: 100%;
@@ -8269,6 +8236,39 @@ body {
   /* line 384, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   .cssmenu .submenu-button.submenu-opened:after {
     display: none; } }
+
+/* line 5, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_wp-classes.scss */
+.alignnone {
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 100%;
+  height: auto; }
+
+/* line 11, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_wp-classes.scss */
+.aligncenter {
+  display: block;
+  margin: 10px auto;
+  height: auto; }
+
+/* line 17, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_wp-classes.scss */
+.alignleft,
+.alignright {
+  margin-bottom: 10px;
+  height: auto; }
+
+@media (min-width: 768px) {
+  /* line 23, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_wp-classes.scss */
+  .alignleft {
+    float: left;
+    margin-right: 10px; }
+  /* line 27, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_wp-classes.scss */
+  .alignright {
+    float: right;
+    margin-left: 10px; } }
+
+/* line 37, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_wp-classes.scss */
+.wp-caption-text {
+  padding: 9px; }
 
 /* line 1, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_header.scss */
 #header.sticky-header {

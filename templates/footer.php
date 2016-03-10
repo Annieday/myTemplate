@@ -1,5 +1,7 @@
+<?php
+?>
 <footer class="site-footer content-info">
-
+    
     <div class="site-footer-container container">
         <div class="row">
             <div class="site-footer-widgets col-sm-12">
