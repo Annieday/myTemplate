@@ -17,6 +17,7 @@ $mytemplate_includes = [
     'lib/titles.php', // Page titles
     'lib/wrapper.php', // Theme wrapper class
     'lib/customizer.php', // Theme customizer
+    'lib/parts/_main_sticky_header.php'
 ];
 
 foreach ($mytemplate_includes as $file) {
