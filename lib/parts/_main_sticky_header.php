@@ -1,15 +1,16 @@
 <?php
 namespace Roots\myTemplate\StickyHeader;
+
 function sticky_header_patch(){
 ?>
     <script type="text/javascript">
         jQuery(document).ready(function ($) {
             "use strict";
                     $(window).scroll(function () {
-                        if ($(window).scrollTop() > 30) {
-                            $('#header').addClass('sticky-header');
+                        if ($(window).scrollTop() > 1) {
+                            $('body').addClass('sticky-header');
                         } else {
-                            $('#header').removeClass('sticky-header');
+                            $('body').removeClass('sticky-header');
                         }
                     });
         });

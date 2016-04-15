@@ -1,19 +1,24 @@
-.comment-list {
+.comment-list
+{
     @include list-unstyled;
 }
-.comment-list ol {
+.comment-list ol
+{
     list-style: none;
 }
-.comment-form p {
+.comment-form p
+{
     @extend .form-group;
 }
-.comment-form input[type="text"],
-.comment-form input[type="email"],
-.comment-form input[type="url"],
-.comment-form textarea {
+.comment-form input[type='text'],
+.comment-form input[type='email'],
+.comment-form input[type='url'],
+.comment-form textarea
+{
     @extend .form-control;
 }
-.comment-form input[type="submit"] {
+.comment-form input[type='submit']
+{
     @extend .btn;
     @extend .btn-primary;
 }

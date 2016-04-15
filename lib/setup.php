@@ -126,7 +126,7 @@ function assets() {
     if (is_single() && comments_open() && get_option('thread_comments')) {
         wp_enqueue_script('comment-reply');
     }
-    
+
     wp_enqueue_script('mytemplate/js', Assets\asset_path('scripts/main.js'), ['jquery'], null, true);
     wp_enqueue_script('mytemplate/js/navigation', Assets\asset_path('scripts/components/navigation.js'), ['jquery'], null, true);
     wp_enqueue_script('mytemplate/js/skip-link-focus', Assets\asset_path('scripts/common/skip-link-focus-fix.js'), ['jquery'], null, true);

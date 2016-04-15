@@ -1,19 +1,23 @@
 // Grid system
-.main {
+.main
+{
     @include make-sm-column($main-sm-columns);
     .sidebar-right &,
-    .sidebar-left &{
+    .sidebar-left &
+    {
         @include make-sm-column($main-sm-columns - $sidebar-sm-columns);
     }
-    .sidebar-left-right & {
+    .sidebar-left-right &
+    {
         @include make-sm-column($main-sm-2-columns);
     }
 }
 
-.sidebar {
+.sidebar
+{
     @include make-sm-column($sidebar-sm-columns);
-    .sidebar-left-right & {
+    .sidebar-left-right &
+    {
         @include make-sm-column($sidebar-sm-2-columns);
     }
 }
-

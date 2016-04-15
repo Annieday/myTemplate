@@ -275,9 +275,9 @@ th {
     display: none; }
   /* line 77, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_print.scss */
   .btn > .caret,
-  .comment-form input[type="submit"] > .caret,
+  .comment-form input[type='submit'] > .caret,
   .search-form .search-submit > .caret,
-  .dropup > .btn > .caret, .comment-form .dropup > input[type="submit"] > .caret, .search-form .dropup > .search-submit > .caret {
+  .dropup > .btn > .caret, .comment-form .dropup > input[type='submit'] > .caret, .search-form .dropup > .search-submit > .caret {
     border-top-color: #000 !important; }
   /* line 81, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_print.scss */
   .label {
@@ -2994,9 +2994,9 @@ output {
   color: #555555; }
 
 /* line 114, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
-.form-control, .comment-form input[type="text"],
-.comment-form input[type="email"],
-.comment-form input[type="url"],
+.form-control, .comment-form input[type='text'],
+.comment-form input[type='email'],
+.comment-form input[type='url'],
 .comment-form textarea, .search-form .search-field {
   display: block;
   width: 100%;
@@ -3015,69 +3015,69 @@ output {
   -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s; }
   /* line 57, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss */
-  .form-control:focus, .comment-form input[type="text"]:focus,
-  .comment-form input[type="email"]:focus,
-  .comment-form input[type="url"]:focus,
+  .form-control:focus, .comment-form input[type='text']:focus,
+  .comment-form input[type='email']:focus,
+  .comment-form input[type='url']:focus,
   .comment-form textarea:focus, .search-form .search-field:focus {
     border-color: #66afe9;
     outline: 0;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6); }
   /* line 103, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss */
-  .form-control::-moz-placeholder, .comment-form input[type="text"]::-moz-placeholder,
-  .comment-form input[type="email"]::-moz-placeholder,
-  .comment-form input[type="url"]::-moz-placeholder,
+  .form-control::-moz-placeholder, .comment-form input[type='text']::-moz-placeholder,
+  .comment-form input[type='email']::-moz-placeholder,
+  .comment-form input[type='url']::-moz-placeholder,
   .comment-form textarea::-moz-placeholder, .search-form .search-field::-moz-placeholder {
     color: #999;
     opacity: 1; }
   /* line 107, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss */
-  .form-control:-ms-input-placeholder, .comment-form input[type="text"]:-ms-input-placeholder,
-  .comment-form input[type="email"]:-ms-input-placeholder,
-  .comment-form input[type="url"]:-ms-input-placeholder,
+  .form-control:-ms-input-placeholder, .comment-form input[type='text']:-ms-input-placeholder,
+  .comment-form input[type='email']:-ms-input-placeholder,
+  .comment-form input[type='url']:-ms-input-placeholder,
   .comment-form textarea:-ms-input-placeholder, .search-form .search-field:-ms-input-placeholder {
     color: #999; }
   /* line 108, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_vendor-prefixes.scss */
-  .form-control::-webkit-input-placeholder, .comment-form input[type="text"]::-webkit-input-placeholder,
-  .comment-form input[type="email"]::-webkit-input-placeholder,
-  .comment-form input[type="url"]::-webkit-input-placeholder,
+  .form-control::-webkit-input-placeholder, .comment-form input[type='text']::-webkit-input-placeholder,
+  .comment-form input[type='email']::-webkit-input-placeholder,
+  .comment-form input[type='url']::-webkit-input-placeholder,
   .comment-form textarea::-webkit-input-placeholder, .search-form .search-field::-webkit-input-placeholder {
     color: #999; }
   /* line 136, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
-  .form-control::-ms-expand, .comment-form input[type="text"]::-ms-expand,
-  .comment-form input[type="email"]::-ms-expand,
-  .comment-form input[type="url"]::-ms-expand,
+  .form-control::-ms-expand, .comment-form input[type='text']::-ms-expand,
+  .comment-form input[type='email']::-ms-expand,
+  .comment-form input[type='url']::-ms-expand,
   .comment-form textarea::-ms-expand, .search-form .search-field::-ms-expand {
     border: 0;
     background-color: transparent; }
   /* line 148, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
   .form-control[disabled],
-  .comment-form input[disabled][type="text"],
-  .comment-form input[disabled][type="email"],
-  .comment-form input[disabled][type="url"],
+  .comment-form input[disabled][type='text'],
+  .comment-form input[disabled][type='email'],
+  .comment-form input[disabled][type='url'],
   .comment-form textarea[disabled],
   .search-form [disabled].search-field,
   .form-control[readonly],
-  .comment-form input[readonly][type="text"],
-  .comment-form input[readonly][type="email"],
-  .comment-form input[readonly][type="url"],
+  .comment-form input[readonly][type='text'],
+  .comment-form input[readonly][type='email'],
+  .comment-form input[readonly][type='url'],
   .comment-form textarea[readonly],
   .search-form [readonly].search-field,
-  fieldset[disabled] .form-control, fieldset[disabled] .comment-form input[type="text"], .comment-form fieldset[disabled] input[type="text"],
-  fieldset[disabled] .comment-form input[type="email"], .comment-form fieldset[disabled] input[type="email"],
-  fieldset[disabled] .comment-form input[type="url"], .comment-form fieldset[disabled] input[type="url"],
+  fieldset[disabled] .form-control, fieldset[disabled] .comment-form input[type='text'], .comment-form fieldset[disabled] input[type='text'],
+  fieldset[disabled] .comment-form input[type='email'], .comment-form fieldset[disabled] input[type='email'],
+  fieldset[disabled] .comment-form input[type='url'], .comment-form fieldset[disabled] input[type='url'],
   fieldset[disabled] .comment-form textarea, .comment-form fieldset[disabled] textarea, fieldset[disabled] .search-form .search-field, .search-form fieldset[disabled] .search-field {
     background-color: #eeeeee;
     opacity: 1; }
   /* line 154, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
   .form-control[disabled],
-  .comment-form input[disabled][type="text"],
-  .comment-form input[disabled][type="email"],
-  .comment-form input[disabled][type="url"],
+  .comment-form input[disabled][type='text'],
+  .comment-form input[disabled][type='email'],
+  .comment-form input[disabled][type='url'],
   .comment-form textarea[disabled],
   .search-form [disabled].search-field,
-  fieldset[disabled] .form-control, fieldset[disabled] .comment-form input[type="text"], .comment-form fieldset[disabled] input[type="text"],
-  fieldset[disabled] .comment-form input[type="email"], .comment-form fieldset[disabled] input[type="email"],
-  fieldset[disabled] .comment-form input[type="url"], .comment-form fieldset[disabled] input[type="url"],
+  fieldset[disabled] .form-control, fieldset[disabled] .comment-form input[type='text'], .comment-form fieldset[disabled] input[type='text'],
+  fieldset[disabled] .comment-form input[type='email'], .comment-form fieldset[disabled] input[type='email'],
+  fieldset[disabled] .comment-form input[type='url'], .comment-form fieldset[disabled] input[type='url'],
   fieldset[disabled] .comment-form textarea, .comment-form fieldset[disabled] textarea, fieldset[disabled] .search-form .search-field, .search-form fieldset[disabled] .search-field {
     cursor: not-allowed; }
 
@@ -3092,92 +3092,92 @@ input[type="search"] {
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   /* line 193, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
   input[type="date"].form-control,
-  .comment-form input[type="date"][type="text"],
-  .comment-form input[type="date"][type="email"],
-  .comment-form input[type="date"][type="url"],
+  .comment-form input[type="date"][type='text'],
+  .comment-form input[type="date"][type='email'],
+  .comment-form input[type="date"][type='url'],
   .search-form input[type="date"].search-field,
   input[type="time"].form-control,
-  .comment-form input[type="time"][type="text"],
-  .comment-form input[type="time"][type="email"],
-  .comment-form input[type="time"][type="url"],
+  .comment-form input[type="time"][type='text'],
+  .comment-form input[type="time"][type='email'],
+  .comment-form input[type="time"][type='url'],
   .search-form input[type="time"].search-field,
   input[type="datetime-local"].form-control,
-  .comment-form input[type="datetime-local"][type="text"],
-  .comment-form input[type="datetime-local"][type="email"],
-  .comment-form input[type="datetime-local"][type="url"],
+  .comment-form input[type="datetime-local"][type='text'],
+  .comment-form input[type="datetime-local"][type='email'],
+  .comment-form input[type="datetime-local"][type='url'],
   .search-form input[type="datetime-local"].search-field,
-  input[type="month"].form-control, .comment-form input[type="month"][type="text"],
-  .comment-form input[type="month"][type="email"],
-  .comment-form input[type="month"][type="url"],
+  input[type="month"].form-control, .comment-form input[type="month"][type='text'],
+  .comment-form input[type="month"][type='email'],
+  .comment-form input[type="month"][type='url'],
   .search-form input[type="month"].search-field {
     line-height: 34px; }
   /* line 198, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
   input[type="date"].input-sm,
   .input-group-sm > input[type="date"].form-control,
-  .comment-form .input-group-sm > input[type="date"][type="text"],
-  .comment-form .input-group-sm > input[type="date"][type="email"],
-  .comment-form .input-group-sm > input[type="date"][type="url"],
+  .comment-form .input-group-sm > input[type="date"][type='text'],
+  .comment-form .input-group-sm > input[type="date"][type='email'],
+  .comment-form .input-group-sm > input[type="date"][type='url'],
   .search-form .input-group-sm > input[type="date"].search-field, .input-group-sm > input[type="date"].input-group-addon,
   .input-group-sm > .input-group-btn > input[type="date"].btn,
-  .comment-form .input-group-sm > .input-group-btn > input[type="date"][type="submit"], .search-form .input-group-sm > .input-group-btn > input[type="date"].search-submit, .input-group-sm input[type="date"],
+  .comment-form .input-group-sm > .input-group-btn > input[type="date"][type='submit'], .search-form .input-group-sm > .input-group-btn > input[type="date"].search-submit, .input-group-sm input[type="date"],
   input[type="time"].input-sm,
   .input-group-sm > input[type="time"].form-control,
-  .comment-form .input-group-sm > input[type="time"][type="text"],
-  .comment-form .input-group-sm > input[type="time"][type="email"],
-  .comment-form .input-group-sm > input[type="time"][type="url"],
+  .comment-form .input-group-sm > input[type="time"][type='text'],
+  .comment-form .input-group-sm > input[type="time"][type='email'],
+  .comment-form .input-group-sm > input[type="time"][type='url'],
   .search-form .input-group-sm > input[type="time"].search-field, .input-group-sm > input[type="time"].input-group-addon,
   .input-group-sm > .input-group-btn > input[type="time"].btn,
-  .comment-form .input-group-sm > .input-group-btn > input[type="time"][type="submit"], .search-form .input-group-sm > .input-group-btn > input[type="time"].search-submit, .input-group-sm input[type="time"],
+  .comment-form .input-group-sm > .input-group-btn > input[type="time"][type='submit'], .search-form .input-group-sm > .input-group-btn > input[type="time"].search-submit, .input-group-sm input[type="time"],
   input[type="datetime-local"].input-sm,
   .input-group-sm > input[type="datetime-local"].form-control,
-  .comment-form .input-group-sm > input[type="datetime-local"][type="text"],
-  .comment-form .input-group-sm > input[type="datetime-local"][type="email"],
-  .comment-form .input-group-sm > input[type="datetime-local"][type="url"],
+  .comment-form .input-group-sm > input[type="datetime-local"][type='text'],
+  .comment-form .input-group-sm > input[type="datetime-local"][type='email'],
+  .comment-form .input-group-sm > input[type="datetime-local"][type='url'],
   .search-form .input-group-sm > input[type="datetime-local"].search-field, .input-group-sm > input[type="datetime-local"].input-group-addon,
   .input-group-sm > .input-group-btn > input[type="datetime-local"].btn,
-  .comment-form .input-group-sm > .input-group-btn > input[type="datetime-local"][type="submit"], .search-form .input-group-sm > .input-group-btn > input[type="datetime-local"].search-submit, .input-group-sm input[type="datetime-local"],
+  .comment-form .input-group-sm > .input-group-btn > input[type="datetime-local"][type='submit'], .search-form .input-group-sm > .input-group-btn > input[type="datetime-local"].search-submit, .input-group-sm input[type="datetime-local"],
   input[type="month"].input-sm,
   .input-group-sm > input[type="month"].form-control,
-  .comment-form .input-group-sm > input[type="month"][type="text"],
-  .comment-form .input-group-sm > input[type="month"][type="email"],
-  .comment-form .input-group-sm > input[type="month"][type="url"],
+  .comment-form .input-group-sm > input[type="month"][type='text'],
+  .comment-form .input-group-sm > input[type="month"][type='email'],
+  .comment-form .input-group-sm > input[type="month"][type='url'],
   .search-form .input-group-sm > input[type="month"].search-field, .input-group-sm > input[type="month"].input-group-addon,
   .input-group-sm > .input-group-btn > input[type="month"].btn,
-  .comment-form .input-group-sm > .input-group-btn > input[type="month"][type="submit"], .search-form .input-group-sm > .input-group-btn > input[type="month"].search-submit, .input-group-sm input[type="month"] {
+  .comment-form .input-group-sm > .input-group-btn > input[type="month"][type='submit'], .search-form .input-group-sm > .input-group-btn > input[type="month"].search-submit, .input-group-sm input[type="month"] {
     line-height: 30px; }
   /* line 203, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
   input[type="date"].input-lg,
   .input-group-lg > input[type="date"].form-control,
-  .comment-form .input-group-lg > input[type="date"][type="text"],
-  .comment-form .input-group-lg > input[type="date"][type="email"],
-  .comment-form .input-group-lg > input[type="date"][type="url"],
+  .comment-form .input-group-lg > input[type="date"][type='text'],
+  .comment-form .input-group-lg > input[type="date"][type='email'],
+  .comment-form .input-group-lg > input[type="date"][type='url'],
   .search-form .input-group-lg > input[type="date"].search-field, .input-group-lg > input[type="date"].input-group-addon,
   .input-group-lg > .input-group-btn > input[type="date"].btn,
-  .comment-form .input-group-lg > .input-group-btn > input[type="date"][type="submit"], .search-form .input-group-lg > .input-group-btn > input[type="date"].search-submit, .input-group-lg input[type="date"],
+  .comment-form .input-group-lg > .input-group-btn > input[type="date"][type='submit'], .search-form .input-group-lg > .input-group-btn > input[type="date"].search-submit, .input-group-lg input[type="date"],
   input[type="time"].input-lg,
   .input-group-lg > input[type="time"].form-control,
-  .comment-form .input-group-lg > input[type="time"][type="text"],
-  .comment-form .input-group-lg > input[type="time"][type="email"],
-  .comment-form .input-group-lg > input[type="time"][type="url"],
+  .comment-form .input-group-lg > input[type="time"][type='text'],
+  .comment-form .input-group-lg > input[type="time"][type='email'],
+  .comment-form .input-group-lg > input[type="time"][type='url'],
   .search-form .input-group-lg > input[type="time"].search-field, .input-group-lg > input[type="time"].input-group-addon,
   .input-group-lg > .input-group-btn > input[type="time"].btn,
-  .comment-form .input-group-lg > .input-group-btn > input[type="time"][type="submit"], .search-form .input-group-lg > .input-group-btn > input[type="time"].search-submit, .input-group-lg input[type="time"],
+  .comment-form .input-group-lg > .input-group-btn > input[type="time"][type='submit'], .search-form .input-group-lg > .input-group-btn > input[type="time"].search-submit, .input-group-lg input[type="time"],
   input[type="datetime-local"].input-lg,
   .input-group-lg > input[type="datetime-local"].form-control,
-  .comment-form .input-group-lg > input[type="datetime-local"][type="text"],
-  .comment-form .input-group-lg > input[type="datetime-local"][type="email"],
-  .comment-form .input-group-lg > input[type="datetime-local"][type="url"],
+  .comment-form .input-group-lg > input[type="datetime-local"][type='text'],
+  .comment-form .input-group-lg > input[type="datetime-local"][type='email'],
+  .comment-form .input-group-lg > input[type="datetime-local"][type='url'],
   .search-form .input-group-lg > input[type="datetime-local"].search-field, .input-group-lg > input[type="datetime-local"].input-group-addon,
   .input-group-lg > .input-group-btn > input[type="datetime-local"].btn,
-  .comment-form .input-group-lg > .input-group-btn > input[type="datetime-local"][type="submit"], .search-form .input-group-lg > .input-group-btn > input[type="datetime-local"].search-submit, .input-group-lg input[type="datetime-local"],
+  .comment-form .input-group-lg > .input-group-btn > input[type="datetime-local"][type='submit'], .search-form .input-group-lg > .input-group-btn > input[type="datetime-local"].search-submit, .input-group-lg input[type="datetime-local"],
   input[type="month"].input-lg,
   .input-group-lg > input[type="month"].form-control,
-  .comment-form .input-group-lg > input[type="month"][type="text"],
-  .comment-form .input-group-lg > input[type="month"][type="email"],
-  .comment-form .input-group-lg > input[type="month"][type="url"],
+  .comment-form .input-group-lg > input[type="month"][type='text'],
+  .comment-form .input-group-lg > input[type="month"][type='email'],
+  .comment-form .input-group-lg > input[type="month"][type='url'],
   .search-form .input-group-lg > input[type="month"].search-field, .input-group-lg > input[type="month"].input-group-addon,
   .input-group-lg > .input-group-btn > input[type="month"].btn,
-  .comment-form .input-group-lg > .input-group-btn > input[type="month"][type="submit"], .search-form .input-group-lg > .input-group-btn > input[type="month"].search-submit, .input-group-lg input[type="month"] {
+  .comment-form .input-group-lg > .input-group-btn > input[type="month"][type='submit'], .search-form .input-group-lg > .input-group-btn > input[type="month"].search-submit, .input-group-lg input[type="month"] {
     line-height: 46px; } }
 
 /* line 215, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
@@ -3263,27 +3263,27 @@ fieldset[disabled] .checkbox label {
   /* line 316, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
   .form-control-static.input-lg,
   .input-group-lg > .form-control-static.form-control,
-  .comment-form .input-group-lg > input.form-control-static[type="text"],
-  .comment-form .input-group-lg > input.form-control-static[type="email"],
-  .comment-form .input-group-lg > input.form-control-static[type="url"],
+  .comment-form .input-group-lg > input.form-control-static[type='text'],
+  .comment-form .input-group-lg > input.form-control-static[type='email'],
+  .comment-form .input-group-lg > input.form-control-static[type='url'],
   .comment-form .input-group-lg > textarea.form-control-static, .search-form .input-group-lg > .form-control-static.search-field, .input-group-lg > .form-control-static.input-group-addon,
   .input-group-lg > .input-group-btn > .form-control-static.btn,
-  .comment-form .input-group-lg > .input-group-btn > input.form-control-static[type="submit"], .search-form .input-group-lg > .input-group-btn > .form-control-static.search-submit, .form-control-static.input-sm, .input-group-sm > .form-control-static.form-control,
-  .comment-form .input-group-sm > input.form-control-static[type="text"],
-  .comment-form .input-group-sm > input.form-control-static[type="email"],
-  .comment-form .input-group-sm > input.form-control-static[type="url"],
+  .comment-form .input-group-lg > .input-group-btn > input.form-control-static[type='submit'], .search-form .input-group-lg > .input-group-btn > .form-control-static.search-submit, .form-control-static.input-sm, .input-group-sm > .form-control-static.form-control,
+  .comment-form .input-group-sm > input.form-control-static[type='text'],
+  .comment-form .input-group-sm > input.form-control-static[type='email'],
+  .comment-form .input-group-sm > input.form-control-static[type='url'],
   .comment-form .input-group-sm > textarea.form-control-static, .search-form .input-group-sm > .form-control-static.search-field, .input-group-sm > .form-control-static.input-group-addon,
-  .input-group-sm > .input-group-btn > .form-control-static.btn, .comment-form .input-group-sm > .input-group-btn > input.form-control-static[type="submit"], .search-form .input-group-sm > .input-group-btn > .form-control-static.search-submit {
+  .input-group-sm > .input-group-btn > .form-control-static.btn, .comment-form .input-group-sm > .input-group-btn > input.form-control-static[type='submit'], .search-form .input-group-sm > .input-group-btn > .form-control-static.search-submit {
     padding-left: 0;
     padding-right: 0; }
 
 /* line 70, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss */
 .input-sm, .input-group-sm > .form-control,
-.comment-form .input-group-sm > input[type="text"],
-.comment-form .input-group-sm > input[type="email"],
-.comment-form .input-group-sm > input[type="url"],
+.comment-form .input-group-sm > input[type='text'],
+.comment-form .input-group-sm > input[type='email'],
+.comment-form .input-group-sm > input[type='url'],
 .comment-form .input-group-sm > textarea, .search-form .input-group-sm > .search-field, .input-group-sm > .input-group-addon,
-.input-group-sm > .input-group-btn > .btn, .comment-form .input-group-sm > .input-group-btn > input[type="submit"], .search-form .input-group-sm > .input-group-btn > .search-submit {
+.input-group-sm > .input-group-btn > .btn, .comment-form .input-group-sm > .input-group-btn > input[type='submit'], .search-form .input-group-sm > .input-group-btn > .search-submit {
   height: 30px;
   padding: 5px 10px;
   font-size: 12px;
@@ -3308,9 +3308,9 @@ textarea.input-sm,
   height: auto; }
 
 /* line 333, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
-.form-group-sm .form-control, .form-group-sm .comment-form input[type="text"], .comment-form .form-group-sm input[type="text"],
-.form-group-sm .comment-form input[type="email"], .comment-form .form-group-sm input[type="email"],
-.form-group-sm .comment-form input[type="url"], .comment-form .form-group-sm input[type="url"],
+.form-group-sm .form-control, .form-group-sm .comment-form input[type='text'], .comment-form .form-group-sm input[type='text'],
+.form-group-sm .comment-form input[type='email'], .comment-form .form-group-sm input[type='email'],
+.form-group-sm .comment-form input[type='url'], .comment-form .form-group-sm input[type='url'],
 .form-group-sm .comment-form textarea, .comment-form .form-group-sm textarea, .form-group-sm .search-form .search-field, .search-form .form-group-sm .search-field {
   height: 30px;
   padding: 5px 10px;
@@ -3340,11 +3340,11 @@ textarea.input-sm,
 
 /* line 70, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss */
 .input-lg, .input-group-lg > .form-control,
-.comment-form .input-group-lg > input[type="text"],
-.comment-form .input-group-lg > input[type="email"],
-.comment-form .input-group-lg > input[type="url"],
+.comment-form .input-group-lg > input[type='text'],
+.comment-form .input-group-lg > input[type='email'],
+.comment-form .input-group-lg > input[type='url'],
 .comment-form .input-group-lg > textarea, .search-form .input-group-lg > .search-field, .input-group-lg > .input-group-addon,
-.input-group-lg > .input-group-btn > .btn, .comment-form .input-group-lg > .input-group-btn > input[type="submit"], .search-form .input-group-lg > .input-group-btn > .search-submit {
+.input-group-lg > .input-group-btn > .btn, .comment-form .input-group-lg > .input-group-btn > input[type='submit'], .search-form .input-group-lg > .input-group-btn > .search-submit {
   height: 46px;
   padding: 10px 16px;
   font-size: 18px;
@@ -3369,9 +3369,9 @@ textarea.input-lg,
   height: auto; }
 
 /* line 359, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
-.form-group-lg .form-control, .form-group-lg .comment-form input[type="text"], .comment-form .form-group-lg input[type="text"],
-.form-group-lg .comment-form input[type="email"], .comment-form .form-group-lg input[type="email"],
-.form-group-lg .comment-form input[type="url"], .comment-form .form-group-lg input[type="url"],
+.form-group-lg .form-control, .form-group-lg .comment-form input[type='text'], .comment-form .form-group-lg input[type='text'],
+.form-group-lg .comment-form input[type='email'], .comment-form .form-group-lg input[type='email'],
+.form-group-lg .comment-form input[type='url'], .comment-form .form-group-lg input[type='url'],
 .form-group-lg .comment-form textarea, .comment-form .form-group-lg textarea, .form-group-lg .search-form .search-field, .search-form .form-group-lg .search-field {
   height: 46px;
   padding: 10px 16px;
@@ -3403,9 +3403,9 @@ textarea.input-lg,
 .has-feedback {
   position: relative; }
   /* line 393, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
-  .has-feedback .form-control, .has-feedback .comment-form input[type="text"], .comment-form .has-feedback input[type="text"],
-  .has-feedback .comment-form input[type="email"], .comment-form .has-feedback input[type="email"],
-  .has-feedback .comment-form input[type="url"], .comment-form .has-feedback input[type="url"],
+  .has-feedback .form-control, .has-feedback .comment-form input[type='text'], .comment-form .has-feedback input[type='text'],
+  .has-feedback .comment-form input[type='email'], .comment-form .has-feedback input[type='email'],
+  .has-feedback .comment-form input[type='url'], .comment-form .has-feedback input[type='url'],
   .has-feedback .comment-form textarea, .comment-form .has-feedback textarea, .has-feedback .search-form .search-field, .search-form .has-feedback .search-field {
     padding-right: 42.5px; }
 
@@ -3425,15 +3425,15 @@ textarea.input-lg,
 /* line 412, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .input-lg + .form-control-feedback,
 .input-group-lg > .form-control + .form-control-feedback,
-.comment-form .input-group-lg > input[type="text"] + .form-control-feedback,
-.comment-form .input-group-lg > input[type="email"] + .form-control-feedback,
-.comment-form .input-group-lg > input[type="url"] + .form-control-feedback,
+.comment-form .input-group-lg > input[type='text'] + .form-control-feedback,
+.comment-form .input-group-lg > input[type='email'] + .form-control-feedback,
+.comment-form .input-group-lg > input[type='url'] + .form-control-feedback,
 .comment-form .input-group-lg > textarea + .form-control-feedback, .search-form .input-group-lg > .search-field + .form-control-feedback, .input-group-lg > .input-group-addon + .form-control-feedback,
 .input-group-lg > .input-group-btn > .btn + .form-control-feedback,
-.comment-form .input-group-lg > .input-group-btn > input[type="submit"] + .form-control-feedback, .search-form .input-group-lg > .input-group-btn > .search-submit + .form-control-feedback, .input-group-lg + .form-control-feedback,
-.form-group-lg .form-control + .form-control-feedback, .form-group-lg .comment-form input[type="text"] + .form-control-feedback, .comment-form .form-group-lg input[type="text"] + .form-control-feedback,
-.form-group-lg .comment-form input[type="email"] + .form-control-feedback, .comment-form .form-group-lg input[type="email"] + .form-control-feedback,
-.form-group-lg .comment-form input[type="url"] + .form-control-feedback, .comment-form .form-group-lg input[type="url"] + .form-control-feedback,
+.comment-form .input-group-lg > .input-group-btn > input[type='submit'] + .form-control-feedback, .search-form .input-group-lg > .input-group-btn > .search-submit + .form-control-feedback, .input-group-lg + .form-control-feedback,
+.form-group-lg .form-control + .form-control-feedback, .form-group-lg .comment-form input[type='text'] + .form-control-feedback, .comment-form .form-group-lg input[type='text'] + .form-control-feedback,
+.form-group-lg .comment-form input[type='email'] + .form-control-feedback, .comment-form .form-group-lg input[type='email'] + .form-control-feedback,
+.form-group-lg .comment-form input[type='url'] + .form-control-feedback, .comment-form .form-group-lg input[type='url'] + .form-control-feedback,
 .form-group-lg .comment-form textarea + .form-control-feedback, .comment-form .form-group-lg textarea + .form-control-feedback, .form-group-lg .search-form .search-field + .form-control-feedback, .search-form .form-group-lg .search-field + .form-control-feedback {
   width: 46px;
   height: 46px;
@@ -3442,15 +3442,15 @@ textarea.input-lg,
 /* line 419, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
 .input-sm + .form-control-feedback,
 .input-group-sm > .form-control + .form-control-feedback,
-.comment-form .input-group-sm > input[type="text"] + .form-control-feedback,
-.comment-form .input-group-sm > input[type="email"] + .form-control-feedback,
-.comment-form .input-group-sm > input[type="url"] + .form-control-feedback,
+.comment-form .input-group-sm > input[type='text'] + .form-control-feedback,
+.comment-form .input-group-sm > input[type='email'] + .form-control-feedback,
+.comment-form .input-group-sm > input[type='url'] + .form-control-feedback,
 .comment-form .input-group-sm > textarea + .form-control-feedback, .search-form .input-group-sm > .search-field + .form-control-feedback, .input-group-sm > .input-group-addon + .form-control-feedback,
 .input-group-sm > .input-group-btn > .btn + .form-control-feedback,
-.comment-form .input-group-sm > .input-group-btn > input[type="submit"] + .form-control-feedback, .search-form .input-group-sm > .input-group-btn > .search-submit + .form-control-feedback, .input-group-sm + .form-control-feedback,
-.form-group-sm .form-control + .form-control-feedback, .form-group-sm .comment-form input[type="text"] + .form-control-feedback, .comment-form .form-group-sm input[type="text"] + .form-control-feedback,
-.form-group-sm .comment-form input[type="email"] + .form-control-feedback, .comment-form .form-group-sm input[type="email"] + .form-control-feedback,
-.form-group-sm .comment-form input[type="url"] + .form-control-feedback, .comment-form .form-group-sm input[type="url"] + .form-control-feedback,
+.comment-form .input-group-sm > .input-group-btn > input[type='submit'] + .form-control-feedback, .search-form .input-group-sm > .input-group-btn > .search-submit + .form-control-feedback, .input-group-sm + .form-control-feedback,
+.form-group-sm .form-control + .form-control-feedback, .form-group-sm .comment-form input[type='text'] + .form-control-feedback, .comment-form .form-group-sm input[type='text'] + .form-control-feedback,
+.form-group-sm .comment-form input[type='email'] + .form-control-feedback, .comment-form .form-group-sm input[type='email'] + .form-control-feedback,
+.form-group-sm .comment-form input[type='url'] + .form-control-feedback, .comment-form .form-group-sm input[type='url'] + .form-control-feedback,
 .form-group-sm .comment-form textarea + .form-control-feedback, .comment-form .form-group-sm textarea + .form-control-feedback, .form-group-sm .search-form .search-field + .form-control-feedback, .search-form .form-group-sm .search-field + .form-control-feedback {
   width: 30px;
   height: 30px;
@@ -3470,17 +3470,17 @@ textarea.input-lg,
   color: #3c763d; }
 
 /* line 21, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss */
-.has-success .form-control, .has-success .comment-form input[type="text"], .comment-form .has-success input[type="text"],
-.has-success .comment-form input[type="email"], .comment-form .has-success input[type="email"],
-.has-success .comment-form input[type="url"], .comment-form .has-success input[type="url"],
+.has-success .form-control, .has-success .comment-form input[type='text'], .comment-form .has-success input[type='text'],
+.has-success .comment-form input[type='email'], .comment-form .has-success input[type='email'],
+.has-success .comment-form input[type='url'], .comment-form .has-success input[type='url'],
 .has-success .comment-form textarea, .comment-form .has-success textarea, .has-success .search-form .search-field, .search-form .has-success .search-field {
   border-color: #3c763d;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
   /* line 24, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss */
-  .has-success .form-control:focus, .has-success .comment-form input[type="text"]:focus, .comment-form .has-success input[type="text"]:focus,
-  .has-success .comment-form input[type="email"]:focus, .comment-form .has-success input[type="email"]:focus,
-  .has-success .comment-form input[type="url"]:focus, .comment-form .has-success input[type="url"]:focus,
+  .has-success .form-control:focus, .has-success .comment-form input[type='text']:focus, .comment-form .has-success input[type='text']:focus,
+  .has-success .comment-form input[type='email']:focus, .comment-form .has-success input[type='email']:focus,
+  .has-success .comment-form input[type='url']:focus, .comment-form .has-success input[type='url']:focus,
   .has-success .comment-form textarea:focus, .comment-form .has-success textarea:focus, .has-success .search-form .search-field:focus, .search-form .has-success .search-field:focus {
     border-color: #2b542c;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
@@ -3510,17 +3510,17 @@ textarea.input-lg,
   color: #8a6d3b; }
 
 /* line 21, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss */
-.has-warning .form-control, .has-warning .comment-form input[type="text"], .comment-form .has-warning input[type="text"],
-.has-warning .comment-form input[type="email"], .comment-form .has-warning input[type="email"],
-.has-warning .comment-form input[type="url"], .comment-form .has-warning input[type="url"],
+.has-warning .form-control, .has-warning .comment-form input[type='text'], .comment-form .has-warning input[type='text'],
+.has-warning .comment-form input[type='email'], .comment-form .has-warning input[type='email'],
+.has-warning .comment-form input[type='url'], .comment-form .has-warning input[type='url'],
 .has-warning .comment-form textarea, .comment-form .has-warning textarea, .has-warning .search-form .search-field, .search-form .has-warning .search-field {
   border-color: #8a6d3b;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
   /* line 24, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss */
-  .has-warning .form-control:focus, .has-warning .comment-form input[type="text"]:focus, .comment-form .has-warning input[type="text"]:focus,
-  .has-warning .comment-form input[type="email"]:focus, .comment-form .has-warning input[type="email"]:focus,
-  .has-warning .comment-form input[type="url"]:focus, .comment-form .has-warning input[type="url"]:focus,
+  .has-warning .form-control:focus, .has-warning .comment-form input[type='text']:focus, .comment-form .has-warning input[type='text']:focus,
+  .has-warning .comment-form input[type='email']:focus, .comment-form .has-warning input[type='email']:focus,
+  .has-warning .comment-form input[type='url']:focus, .comment-form .has-warning input[type='url']:focus,
   .has-warning .comment-form textarea:focus, .comment-form .has-warning textarea:focus, .has-warning .search-form .search-field:focus, .search-form .has-warning .search-field:focus {
     border-color: #66512c;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
@@ -3550,17 +3550,17 @@ textarea.input-lg,
   color: #a94442; }
 
 /* line 21, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss */
-.has-error .form-control, .has-error .comment-form input[type="text"], .comment-form .has-error input[type="text"],
-.has-error .comment-form input[type="email"], .comment-form .has-error input[type="email"],
-.has-error .comment-form input[type="url"], .comment-form .has-error input[type="url"],
+.has-error .form-control, .has-error .comment-form input[type='text'], .comment-form .has-error input[type='text'],
+.has-error .comment-form input[type='email'], .comment-form .has-error input[type='email'],
+.has-error .comment-form input[type='url'], .comment-form .has-error input[type='url'],
 .has-error .comment-form textarea, .comment-form .has-error textarea, .has-error .search-form .search-field, .search-form .has-error .search-field {
   border-color: #a94442;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
   /* line 24, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss */
-  .has-error .form-control:focus, .has-error .comment-form input[type="text"]:focus, .comment-form .has-error input[type="text"]:focus,
-  .has-error .comment-form input[type="email"]:focus, .comment-form .has-error input[type="email"]:focus,
-  .has-error .comment-form input[type="url"]:focus, .comment-form .has-error input[type="url"]:focus,
+  .has-error .form-control:focus, .has-error .comment-form input[type='text']:focus, .comment-form .has-error input[type='text']:focus,
+  .has-error .comment-form input[type='email']:focus, .comment-form .has-error input[type='email']:focus,
+  .has-error .comment-form input[type='url']:focus, .comment-form .has-error input[type='url']:focus,
   .has-error .comment-form textarea:focus, .comment-form .has-error textarea:focus, .has-error .search-form .search-field:focus, .search-form .has-error .search-field:focus {
     border-color: #843534;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
@@ -3598,12 +3598,12 @@ textarea.input-lg,
     margin-bottom: 0;
     vertical-align: middle; }
   /* line 485, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
-  .form-inline .form-control, .search-form .form-control, .form-inline .comment-form input[type="text"], .comment-form .form-inline input[type="text"],
-  .search-form .comment-form input[type="text"], .comment-form .search-form input[type="text"],
-  .form-inline .comment-form input[type="email"], .comment-form .form-inline input[type="email"],
-  .search-form .comment-form input[type="email"], .comment-form .search-form input[type="email"],
-  .form-inline .comment-form input[type="url"], .comment-form .form-inline input[type="url"],
-  .search-form .comment-form input[type="url"], .comment-form .search-form input[type="url"],
+  .form-inline .form-control, .search-form .form-control, .form-inline .comment-form input[type='text'], .comment-form .form-inline input[type='text'],
+  .search-form .comment-form input[type='text'], .comment-form .search-form input[type='text'],
+  .form-inline .comment-form input[type='email'], .comment-form .form-inline input[type='email'],
+  .search-form .comment-form input[type='email'], .comment-form .search-form input[type='email'],
+  .form-inline .comment-form input[type='url'], .comment-form .form-inline input[type='url'],
+  .search-form .comment-form input[type='url'], .comment-form .search-form input[type='url'],
   .form-inline .comment-form textarea, .comment-form .form-inline textarea, .search-form .comment-form textarea, .comment-form .search-form textarea, .search-form .search-field {
     display: inline-block;
     width: auto;
@@ -3620,21 +3620,21 @@ textarea.input-lg,
     .search-form .input-group .input-group-addon,
     .form-inline .input-group .input-group-btn,
     .search-form .input-group .input-group-btn,
-    .form-inline .input-group .form-control, .search-form .input-group .form-control, .form-inline .input-group .comment-form input[type="text"], .comment-form .form-inline .input-group input[type="text"],
-    .search-form .input-group .comment-form input[type="text"], .comment-form .search-form .input-group input[type="text"],
-    .form-inline .input-group .comment-form input[type="email"], .comment-form .form-inline .input-group input[type="email"],
-    .search-form .input-group .comment-form input[type="email"], .comment-form .search-form .input-group input[type="email"],
-    .form-inline .input-group .comment-form input[type="url"], .comment-form .form-inline .input-group input[type="url"],
-    .search-form .input-group .comment-form input[type="url"], .comment-form .search-form .input-group input[type="url"],
+    .form-inline .input-group .form-control, .search-form .input-group .form-control, .form-inline .input-group .comment-form input[type='text'], .comment-form .form-inline .input-group input[type='text'],
+    .search-form .input-group .comment-form input[type='text'], .comment-form .search-form .input-group input[type='text'],
+    .form-inline .input-group .comment-form input[type='email'], .comment-form .form-inline .input-group input[type='email'],
+    .search-form .input-group .comment-form input[type='email'], .comment-form .search-form .input-group input[type='email'],
+    .form-inline .input-group .comment-form input[type='url'], .comment-form .form-inline .input-group input[type='url'],
+    .search-form .input-group .comment-form input[type='url'], .comment-form .search-form .input-group input[type='url'],
     .form-inline .input-group .comment-form textarea, .comment-form .form-inline .input-group textarea, .search-form .input-group .comment-form textarea, .comment-form .search-form .input-group textarea, .form-inline .input-group .search-form .search-field, .search-form .input-group .search-field {
       width: auto; }
   /* line 508, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
-  .form-inline .input-group > .form-control, .search-form .input-group > .form-control, .form-inline .comment-form .input-group > input[type="text"], .comment-form .form-inline .input-group > input[type="text"],
-  .search-form .comment-form .input-group > input[type="text"], .comment-form .search-form .input-group > input[type="text"],
-  .form-inline .comment-form .input-group > input[type="email"], .comment-form .form-inline .input-group > input[type="email"],
-  .search-form .comment-form .input-group > input[type="email"], .comment-form .search-form .input-group > input[type="email"],
-  .form-inline .comment-form .input-group > input[type="url"], .comment-form .form-inline .input-group > input[type="url"],
-  .search-form .comment-form .input-group > input[type="url"], .comment-form .search-form .input-group > input[type="url"],
+  .form-inline .input-group > .form-control, .search-form .input-group > .form-control, .form-inline .comment-form .input-group > input[type='text'], .comment-form .form-inline .input-group > input[type='text'],
+  .search-form .comment-form .input-group > input[type='text'], .comment-form .search-form .input-group > input[type='text'],
+  .form-inline .comment-form .input-group > input[type='email'], .comment-form .form-inline .input-group > input[type='email'],
+  .search-form .comment-form .input-group > input[type='email'], .comment-form .search-form .input-group > input[type='email'],
+  .form-inline .comment-form .input-group > input[type='url'], .comment-form .form-inline .input-group > input[type='url'],
+  .search-form .comment-form .input-group > input[type='url'], .comment-form .search-form .input-group > input[type='url'],
   .form-inline .comment-form .input-group > textarea, .comment-form .form-inline .input-group > textarea, .search-form .comment-form .input-group > textarea, .comment-form .search-form .input-group > textarea, .search-form .form-inline .input-group > .search-field, .search-form .input-group > .search-field {
     width: 100%; }
   /* line 512, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
@@ -3717,7 +3717,7 @@ textarea.input-lg,
     font-size: 12px; } }
 
 /* line 9, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
-.btn, .comment-form input[type="submit"], .search-form .search-submit {
+.btn, .comment-form input[type='submit'], .search-form .search-submit {
   display: inline-block;
   margin-bottom: 0;
   font-weight: normal;
@@ -3738,51 +3738,51 @@ textarea.input-lg,
   user-select: none; }
   /* line 27, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
   .btn:focus,
-  .comment-form input[type="submit"]:focus,
+  .comment-form input[type='submit']:focus,
   .search-form .search-submit:focus,
   .btn.focus,
-  .comment-form input.focus[type="submit"],
+  .comment-form input.focus[type='submit'],
   .search-form .focus.search-submit,
   .btn:active:focus,
-  .comment-form input[type="submit"]:active:focus,
+  .comment-form input[type='submit']:active:focus,
   .search-form .search-submit:active:focus,
   .btn:active.focus,
-  .comment-form input[type="submit"]:active.focus,
+  .comment-form input[type='submit']:active.focus,
   .search-form .search-submit:active.focus,
   .btn.active:focus,
-  .comment-form input.active[type="submit"]:focus,
+  .comment-form input.active[type='submit']:focus,
   .search-form .active.search-submit:focus,
-  .btn.active.focus, .comment-form input.active.focus[type="submit"], .search-form .active.focus.search-submit {
+  .btn.active.focus, .comment-form input.active.focus[type='submit'], .search-form .active.focus.search-submit {
     outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px; }
   /* line 34, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
   .btn:hover,
-  .comment-form input[type="submit"]:hover,
+  .comment-form input[type='submit']:hover,
   .search-form .search-submit:hover,
   .btn:focus,
-  .comment-form input[type="submit"]:focus,
+  .comment-form input[type='submit']:focus,
   .search-form .search-submit:focus,
-  .btn.focus, .comment-form input.focus[type="submit"], .search-form .focus.search-submit {
+  .btn.focus, .comment-form input.focus[type='submit'], .search-form .focus.search-submit {
     color: #333;
     text-decoration: none; }
   /* line 40, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
   .btn:active,
-  .comment-form input[type="submit"]:active,
+  .comment-form input[type='submit']:active,
   .search-form .search-submit:active,
-  .btn.active, .comment-form input.active[type="submit"], .search-form .active.search-submit {
+  .btn.active, .comment-form input.active[type='submit'], .search-form .active.search-submit {
     outline: 0;
     background-image: none;
     -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
   /* line 48, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
   .btn.disabled,
-  .comment-form input.disabled[type="submit"],
+  .comment-form input.disabled[type='submit'],
   .search-form .disabled.search-submit,
   .btn[disabled],
-  .comment-form input[disabled][type="submit"],
+  .comment-form input[disabled][type='submit'],
   .search-form [disabled].search-submit,
-  fieldset[disabled] .btn, fieldset[disabled] .comment-form input[type="submit"], .comment-form fieldset[disabled] input[type="submit"], fieldset[disabled] .search-form .search-submit, .search-form fieldset[disabled] .search-submit {
+  fieldset[disabled] .btn, fieldset[disabled] .comment-form input[type='submit'], .comment-form fieldset[disabled] input[type='submit'], fieldset[disabled] .search-form .search-submit, .search-form fieldset[disabled] .search-submit {
     cursor: not-allowed;
     opacity: 0.65;
     filter: alpha(opacity=65);
@@ -3873,79 +3873,79 @@ fieldset[disabled] a.btn, fieldset[disabled] .search-form a.search-submit, .sear
     background-color: #333; }
 
 /* line 71, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
-.btn-primary, .comment-form input[type="submit"] {
+.btn-primary, .comment-form input[type='submit'] {
   color: #fff;
   background-color: #27ae60;
   border-color: #229955; }
   /* line 12, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-primary:focus,
-  .comment-form input[type="submit"]:focus,
-  .btn-primary.focus, .comment-form input.focus[type="submit"] {
+  .comment-form input[type='submit']:focus,
+  .btn-primary.focus, .comment-form input.focus[type='submit'] {
     color: #fff;
     background-color: #1e8449;
     border-color: #0b311b; }
   /* line 17, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-  .btn-primary:hover, .comment-form input[type="submit"]:hover {
+  .btn-primary:hover, .comment-form input[type='submit']:hover {
     color: #fff;
     background-color: #1e8449;
     border-color: #176739; }
   /* line 24, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-primary:active,
-  .comment-form input[type="submit"]:active,
+  .comment-form input[type='submit']:active,
   .btn-primary.active,
-  .comment-form input.active[type="submit"],
-  .open > .btn-primary.dropdown-toggle, .comment-form .open > input.dropdown-toggle[type="submit"] {
+  .comment-form input.active[type='submit'],
+  .open > .btn-primary.dropdown-toggle, .comment-form .open > input.dropdown-toggle[type='submit'] {
     color: #fff;
     background-color: #1e8449;
     border-color: #176739; }
     /* line 31, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
     .btn-primary:active:hover,
-    .comment-form input[type="submit"]:active:hover,
+    .comment-form input[type='submit']:active:hover,
     .btn-primary:active:focus,
-    .comment-form input[type="submit"]:active:focus,
+    .comment-form input[type='submit']:active:focus,
     .btn-primary:active.focus,
-    .comment-form input[type="submit"]:active.focus,
+    .comment-form input[type='submit']:active.focus,
     .btn-primary.active:hover,
-    .comment-form input.active[type="submit"]:hover,
+    .comment-form input.active[type='submit']:hover,
     .btn-primary.active:focus,
-    .comment-form input.active[type="submit"]:focus,
+    .comment-form input.active[type='submit']:focus,
     .btn-primary.active.focus,
-    .comment-form input.active.focus[type="submit"],
+    .comment-form input.active.focus[type='submit'],
     .open > .btn-primary.dropdown-toggle:hover,
-    .comment-form .open > input.dropdown-toggle[type="submit"]:hover, .open > .btn-primary.dropdown-toggle:focus,
-    .comment-form .open > input.dropdown-toggle[type="submit"]:focus, .open > .btn-primary.dropdown-toggle.focus, .comment-form .open > input.dropdown-toggle.focus[type="submit"] {
+    .comment-form .open > input.dropdown-toggle[type='submit']:hover, .open > .btn-primary.dropdown-toggle:focus,
+    .comment-form .open > input.dropdown-toggle[type='submit']:focus, .open > .btn-primary.dropdown-toggle.focus, .comment-form .open > input.dropdown-toggle.focus[type='submit'] {
       color: #fff;
       background-color: #176739;
       border-color: #0b311b; }
   /* line 39, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-primary:active,
-  .comment-form input[type="submit"]:active,
+  .comment-form input[type='submit']:active,
   .btn-primary.active,
-  .comment-form input.active[type="submit"],
-  .open > .btn-primary.dropdown-toggle, .comment-form .open > input.dropdown-toggle[type="submit"] {
+  .comment-form input.active[type='submit'],
+  .open > .btn-primary.dropdown-toggle, .comment-form .open > input.dropdown-toggle[type='submit'] {
     background-image: none; }
   /* line 47, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-primary.disabled:hover,
-  .comment-form input.disabled[type="submit"]:hover,
+  .comment-form input.disabled[type='submit']:hover,
   .btn-primary.disabled:focus,
-  .comment-form input.disabled[type="submit"]:focus,
+  .comment-form input.disabled[type='submit']:focus,
   .btn-primary.disabled.focus,
-  .comment-form input.disabled.focus[type="submit"],
+  .comment-form input.disabled.focus[type='submit'],
   .btn-primary[disabled]:hover,
-  .comment-form input[disabled][type="submit"]:hover,
+  .comment-form input[disabled][type='submit']:hover,
   .btn-primary[disabled]:focus,
-  .comment-form input[disabled][type="submit"]:focus,
+  .comment-form input[disabled][type='submit']:focus,
   .btn-primary[disabled].focus,
-  .comment-form input[disabled].focus[type="submit"],
+  .comment-form input[disabled].focus[type='submit'],
   fieldset[disabled] .btn-primary:hover,
-  fieldset[disabled] .comment-form input[type="submit"]:hover,
-  .comment-form fieldset[disabled] input[type="submit"]:hover, fieldset[disabled] .btn-primary:focus,
-  fieldset[disabled] .comment-form input[type="submit"]:focus,
-  .comment-form fieldset[disabled] input[type="submit"]:focus, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .comment-form input.focus[type="submit"], .comment-form fieldset[disabled] input.focus[type="submit"] {
+  fieldset[disabled] .comment-form input[type='submit']:hover,
+  .comment-form fieldset[disabled] input[type='submit']:hover, fieldset[disabled] .btn-primary:focus,
+  fieldset[disabled] .comment-form input[type='submit']:focus,
+  .comment-form fieldset[disabled] input[type='submit']:focus, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .comment-form input.focus[type='submit'], .comment-form fieldset[disabled] input.focus[type='submit'] {
     background-color: #27ae60;
     border-color: #229955; }
   /* line 53, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_buttons.scss */
-  .btn-primary .badge, .comment-form input[type="submit"] .badge {
+  .btn-primary .badge, .comment-form input[type='submit'] .badge {
     color: #27ae60;
     background-color: #fff; }
 
@@ -4216,21 +4216,21 @@ fieldset[disabled] a.btn, fieldset[disabled] .search-form a.search-submit, .sear
     text-decoration: none; }
 
 /* line 135, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
-.btn-lg, .btn-group-lg > .btn, .comment-form .btn-group-lg > input[type="submit"], .search-form .btn-group-lg > .search-submit {
+.btn-lg, .btn-group-lg > .btn, .comment-form .btn-group-lg > input[type='submit'], .search-form .btn-group-lg > .search-submit {
   padding: 10px 16px;
   font-size: 18px;
   line-height: 1.33333;
   border-radius: 6px; }
 
 /* line 139, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
-.btn-sm, .btn-group-sm > .btn, .comment-form .btn-group-sm > input[type="submit"], .search-form .btn-group-sm > .search-submit {
+.btn-sm, .btn-group-sm > .btn, .comment-form .btn-group-sm > input[type='submit'], .search-form .btn-group-sm > .search-submit {
   padding: 5px 10px;
   font-size: 12px;
   line-height: 1.5;
   border-radius: 3px; }
 
 /* line 143, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss */
-.btn-xs, .btn-group-xs > .btn, .comment-form .btn-group-xs > input[type="submit"], .search-form .btn-group-xs > .search-submit {
+.btn-xs, .btn-group-xs > .btn, .comment-form .btn-group-xs > input[type='submit'], .search-form .btn-group-xs > .search-submit {
   padding: 1px 5px;
   font-size: 12px;
   line-height: 1.5;
@@ -4455,36 +4455,36 @@ tbody.collapse.in {
   vertical-align: middle; }
   /* line 11, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss */
   .btn-group > .btn,
-  .comment-form .btn-group > input[type="submit"], .search-form .btn-group > .search-submit, .btn-group-vertical > .btn, .comment-form .btn-group-vertical > input[type="submit"], .search-form .btn-group-vertical > .search-submit {
+  .comment-form .btn-group > input[type='submit'], .search-form .btn-group > .search-submit, .btn-group-vertical > .btn, .comment-form .btn-group-vertical > input[type='submit'], .search-form .btn-group-vertical > .search-submit {
     position: relative;
     float: left; }
     /* line 18, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss */
     .btn-group > .btn:hover,
-    .comment-form .btn-group > input[type="submit"]:hover, .search-form .btn-group > .search-submit:hover, .btn-group > .btn:focus,
-    .comment-form .btn-group > input[type="submit"]:focus, .search-form .btn-group > .search-submit:focus, .btn-group > .btn:active,
-    .comment-form .btn-group > input[type="submit"]:active, .search-form .btn-group > .search-submit:active, .btn-group > .btn.active,
-    .comment-form .btn-group > input.active[type="submit"], .search-form .btn-group > .active.search-submit, .btn-group-vertical > .btn:hover,
-    .comment-form .btn-group-vertical > input[type="submit"]:hover, .search-form .btn-group-vertical > .search-submit:hover, .btn-group-vertical > .btn:focus,
-    .comment-form .btn-group-vertical > input[type="submit"]:focus, .search-form .btn-group-vertical > .search-submit:focus, .btn-group-vertical > .btn:active,
-    .comment-form .btn-group-vertical > input[type="submit"]:active, .search-form .btn-group-vertical > .search-submit:active, .btn-group-vertical > .btn.active, .comment-form .btn-group-vertical > input.active[type="submit"], .search-form .btn-group-vertical > .active.search-submit {
+    .comment-form .btn-group > input[type='submit']:hover, .search-form .btn-group > .search-submit:hover, .btn-group > .btn:focus,
+    .comment-form .btn-group > input[type='submit']:focus, .search-form .btn-group > .search-submit:focus, .btn-group > .btn:active,
+    .comment-form .btn-group > input[type='submit']:active, .search-form .btn-group > .search-submit:active, .btn-group > .btn.active,
+    .comment-form .btn-group > input.active[type='submit'], .search-form .btn-group > .active.search-submit, .btn-group-vertical > .btn:hover,
+    .comment-form .btn-group-vertical > input[type='submit']:hover, .search-form .btn-group-vertical > .search-submit:hover, .btn-group-vertical > .btn:focus,
+    .comment-form .btn-group-vertical > input[type='submit']:focus, .search-form .btn-group-vertical > .search-submit:focus, .btn-group-vertical > .btn:active,
+    .comment-form .btn-group-vertical > input[type='submit']:active, .search-form .btn-group-vertical > .search-submit:active, .btn-group-vertical > .btn.active, .comment-form .btn-group-vertical > input.active[type='submit'], .search-form .btn-group-vertical > .active.search-submit {
       z-index: 2; }
 
 /* line 29, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss */
 .btn-group .btn + .btn,
-.btn-group .comment-form input[type="submit"] + .btn,
-.comment-form .btn-group input[type="submit"] + .btn, .btn-group .search-form .search-submit + .btn,
-.search-form .btn-group .search-submit + .btn, .btn-group .comment-form .btn + input[type="submit"],
-.comment-form .btn-group .btn + input[type="submit"], .btn-group .comment-form input[type="submit"] + input[type="submit"],
-.comment-form .btn-group input[type="submit"] + input[type="submit"], .btn-group .search-form .comment-form .search-submit + input[type="submit"],
-.comment-form .btn-group .search-form .search-submit + input[type="submit"], .search-form .btn-group .comment-form .search-submit + input[type="submit"], .comment-form .search-form .btn-group .search-submit + input[type="submit"], .btn-group .search-form .btn + .search-submit,
-.search-form .btn-group .btn + .search-submit, .btn-group .comment-form .search-form input[type="submit"] + .search-submit,
-.search-form .btn-group .comment-form input[type="submit"] + .search-submit, .comment-form .btn-group .search-form input[type="submit"] + .search-submit, .search-form .comment-form .btn-group input[type="submit"] + .search-submit, .btn-group .search-form .search-submit + .search-submit,
+.btn-group .comment-form input[type='submit'] + .btn,
+.comment-form .btn-group input[type='submit'] + .btn, .btn-group .search-form .search-submit + .btn,
+.search-form .btn-group .search-submit + .btn, .btn-group .comment-form .btn + input[type='submit'],
+.comment-form .btn-group .btn + input[type='submit'], .btn-group .comment-form input[type='submit'] + input[type='submit'],
+.comment-form .btn-group input[type='submit'] + input[type='submit'], .btn-group .search-form .comment-form .search-submit + input[type='submit'],
+.comment-form .btn-group .search-form .search-submit + input[type='submit'], .search-form .btn-group .comment-form .search-submit + input[type='submit'], .comment-form .search-form .btn-group .search-submit + input[type='submit'], .btn-group .search-form .btn + .search-submit,
+.search-form .btn-group .btn + .search-submit, .btn-group .comment-form .search-form input[type='submit'] + .search-submit,
+.search-form .btn-group .comment-form input[type='submit'] + .search-submit, .comment-form .btn-group .search-form input[type='submit'] + .search-submit, .search-form .comment-form .btn-group input[type='submit'] + .search-submit, .btn-group .search-form .search-submit + .search-submit,
 .search-form .btn-group .search-submit + .search-submit, .btn-group .btn + .btn-group,
-.btn-group .comment-form input[type="submit"] + .btn-group,
-.comment-form .btn-group input[type="submit"] + .btn-group, .btn-group .search-form .search-submit + .btn-group,
+.btn-group .comment-form input[type='submit'] + .btn-group,
+.comment-form .btn-group input[type='submit'] + .btn-group, .btn-group .search-form .search-submit + .btn-group,
 .search-form .btn-group .search-submit + .btn-group, .btn-group .btn-group + .btn,
-.btn-group .comment-form .btn-group + input[type="submit"],
-.comment-form .btn-group .btn-group + input[type="submit"], .btn-group .search-form .btn-group + .search-submit,
+.btn-group .comment-form .btn-group + input[type='submit'],
+.comment-form .btn-group .btn-group + input[type='submit'], .btn-group .search-form .btn-group + .search-submit,
 .search-form .btn-group .btn-group + .search-submit, .btn-group .btn-group + .btn-group {
   margin-left: -1px; }
 
@@ -4501,32 +4501,32 @@ tbody.collapse.in {
     clear: both; }
   /* line 41, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss */
   .btn-toolbar .btn,
-  .btn-toolbar .comment-form input[type="submit"],
-  .comment-form .btn-toolbar input[type="submit"], .btn-toolbar .search-form .search-submit,
+  .btn-toolbar .comment-form input[type='submit'],
+  .comment-form .btn-toolbar input[type='submit'], .btn-toolbar .search-form .search-submit,
   .search-form .btn-toolbar .search-submit, .btn-toolbar .btn-group,
   .btn-toolbar .input-group {
     float: left; }
   /* line 46, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss */
   .btn-toolbar > .btn,
-  .comment-form .btn-toolbar > input[type="submit"], .search-form .btn-toolbar > .search-submit, .btn-toolbar > .btn-group,
+  .comment-form .btn-toolbar > input[type='submit'], .search-form .btn-toolbar > .search-submit, .btn-toolbar > .btn-group,
   .btn-toolbar > .input-group {
     margin-left: 5px; }
 
 /* line 51, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle), .comment-form .btn-group > input[type="submit"]:not(:first-child):not(:last-child):not(.dropdown-toggle), .search-form .btn-group > .search-submit:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+.btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle), .comment-form .btn-group > input[type='submit']:not(:first-child):not(:last-child):not(.dropdown-toggle), .search-form .btn-group > .search-submit:not(:first-child):not(:last-child):not(.dropdown-toggle) {
   border-radius: 0; }
 
 /* line 56, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-group > .btn:first-child, .comment-form .btn-group > input[type="submit"]:first-child, .search-form .btn-group > .search-submit:first-child {
+.btn-group > .btn:first-child, .comment-form .btn-group > input[type='submit']:first-child, .search-form .btn-group > .search-submit:first-child {
   margin-left: 0; }
   /* line 58, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss */
-  .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle), .comment-form .btn-group > input[type="submit"]:first-child:not(:last-child):not(.dropdown-toggle), .search-form .btn-group > .search-submit:first-child:not(:last-child):not(.dropdown-toggle) {
+  .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle), .comment-form .btn-group > input[type='submit']:first-child:not(:last-child):not(.dropdown-toggle), .search-form .btn-group > .search-submit:first-child:not(:last-child):not(.dropdown-toggle) {
     border-bottom-right-radius: 0;
     border-top-right-radius: 0; }
 
 /* line 64, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss */
 .btn-group > .btn:last-child:not(:first-child),
-.comment-form .btn-group > input[type="submit"]:last-child:not(:first-child), .search-form .btn-group > .search-submit:last-child:not(:first-child), .btn-group > .dropdown-toggle:not(:first-child) {
+.comment-form .btn-group > input[type='submit']:last-child:not(:first-child), .search-form .btn-group > .search-submit:last-child:not(:first-child), .btn-group > .dropdown-toggle:not(:first-child) {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0; }
 
@@ -4535,17 +4535,17 @@ tbody.collapse.in {
   float: left; }
 
 /* line 72, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-group > .btn-group:not(:first-child):not(:last-child) > .btn, .comment-form .btn-group > .btn-group:not(:first-child):not(:last-child) > input[type="submit"], .search-form .btn-group > .btn-group:not(:first-child):not(:last-child) > .search-submit {
+.btn-group > .btn-group:not(:first-child):not(:last-child) > .btn, .comment-form .btn-group > .btn-group:not(:first-child):not(:last-child) > input[type='submit'], .search-form .btn-group > .btn-group:not(:first-child):not(:last-child) > .search-submit {
   border-radius: 0; }
 
 /* line 77, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss */
 .btn-group > .btn-group:first-child:not(:last-child) > .btn:last-child,
-.comment-form .btn-group > .btn-group:first-child:not(:last-child) > input[type="submit"]:last-child, .search-form .btn-group > .btn-group:first-child:not(:last-child) > .search-submit:last-child, .btn-group > .btn-group:first-child:not(:last-child) > .dropdown-toggle {
+.comment-form .btn-group > .btn-group:first-child:not(:last-child) > input[type='submit']:last-child, .search-form .btn-group > .btn-group:first-child:not(:last-child) > .search-submit:last-child, .btn-group > .btn-group:first-child:not(:last-child) > .dropdown-toggle {
   border-bottom-right-radius: 0;
   border-top-right-radius: 0; }
 
 /* line 81, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-group > .btn-group:last-child:not(:first-child) > .btn:first-child, .comment-form .btn-group > .btn-group:last-child:not(:first-child) > input[type="submit"]:first-child, .search-form .btn-group > .btn-group:last-child:not(:first-child) > .search-submit:first-child {
+.btn-group > .btn-group:last-child:not(:first-child) > .btn:first-child, .comment-form .btn-group > .btn-group:last-child:not(:first-child) > input[type='submit']:first-child, .search-form .btn-group > .btn-group:last-child:not(:first-child) > .search-submit:first-child {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0; }
 
@@ -4555,12 +4555,12 @@ tbody.collapse.in {
   outline: 0; }
 
 /* line 105, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-group > .btn + .dropdown-toggle, .comment-form .btn-group > input[type="submit"] + .dropdown-toggle, .search-form .btn-group > .search-submit + .dropdown-toggle {
+.btn-group > .btn + .dropdown-toggle, .comment-form .btn-group > input[type='submit'] + .dropdown-toggle, .search-form .btn-group > .search-submit + .dropdown-toggle {
   padding-left: 8px;
   padding-right: 8px; }
 
 /* line 109, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-group > .btn-lg + .dropdown-toggle, .btn-group-lg.btn-group > .btn + .dropdown-toggle, .comment-form .btn-group-lg.btn-group > input[type="submit"] + .dropdown-toggle, .search-form .btn-group-lg.btn-group > .search-submit + .dropdown-toggle {
+.btn-group > .btn-lg + .dropdown-toggle, .btn-group-lg.btn-group > .btn + .dropdown-toggle, .comment-form .btn-group-lg.btn-group > input[type='submit'] + .dropdown-toggle, .search-form .btn-group-lg.btn-group > .search-submit + .dropdown-toggle {
   padding-left: 12px;
   padding-right: 12px; }
 
@@ -4574,22 +4574,22 @@ tbody.collapse.in {
     box-shadow: none; }
 
 /* line 127, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn .caret, .comment-form input[type="submit"] .caret, .search-form .search-submit .caret {
+.btn .caret, .comment-form input[type='submit'] .caret, .search-form .search-submit .caret {
   margin-left: 0; }
 
 /* line 131, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-lg .caret, .btn-group-lg > .btn .caret, .comment-form .btn-group-lg > input[type="submit"] .caret, .search-form .btn-group-lg > .search-submit .caret {
+.btn-lg .caret, .btn-group-lg > .btn .caret, .comment-form .btn-group-lg > input[type='submit'] .caret, .search-form .btn-group-lg > .search-submit .caret {
   border-width: 5px 5px 0;
   border-bottom-width: 0; }
 
 /* line 136, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss */
-.dropup .btn-lg .caret, .dropup .btn-group-lg > .btn .caret, .dropup .comment-form .btn-group-lg > input[type="submit"] .caret, .comment-form .dropup .btn-group-lg > input[type="submit"] .caret, .dropup .search-form .btn-group-lg > .search-submit .caret, .search-form .dropup .btn-group-lg > .search-submit .caret {
+.dropup .btn-lg .caret, .dropup .btn-group-lg > .btn .caret, .dropup .comment-form .btn-group-lg > input[type='submit'] .caret, .comment-form .dropup .btn-group-lg > input[type='submit'] .caret, .dropup .search-form .btn-group-lg > .search-submit .caret, .search-form .dropup .btn-group-lg > .search-submit .caret {
   border-width: 0 5px 5px; }
 
 /* line 147, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss */
 .btn-group-vertical > .btn,
-.comment-form .btn-group-vertical > input[type="submit"], .search-form .btn-group-vertical > .search-submit, .btn-group-vertical > .btn-group,
-.btn-group-vertical > .btn-group > .btn, .comment-form .btn-group-vertical > .btn-group > input[type="submit"], .search-form .btn-group-vertical > .btn-group > .search-submit {
+.comment-form .btn-group-vertical > input[type='submit'], .search-form .btn-group-vertical > .search-submit, .btn-group-vertical > .btn-group,
+.btn-group-vertical > .btn-group > .btn, .comment-form .btn-group-vertical > .btn-group > input[type='submit'], .search-form .btn-group-vertical > .btn-group > .search-submit {
   display: block;
   float: none;
   width: 100%;
@@ -4606,47 +4606,47 @@ tbody.collapse.in {
   clear: both; }
 
 /* line 157, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-group-vertical > .btn-group > .btn, .comment-form .btn-group-vertical > .btn-group > input[type="submit"], .search-form .btn-group-vertical > .btn-group > .search-submit {
+.btn-group-vertical > .btn-group > .btn, .comment-form .btn-group-vertical > .btn-group > input[type='submit'], .search-form .btn-group-vertical > .btn-group > .search-submit {
   float: none; }
 
 /* line 165, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss */
 .btn-group-vertical > .btn + .btn,
-.comment-form .btn-group-vertical > input[type="submit"] + .btn, .search-form .btn-group-vertical > .search-submit + .btn, .comment-form .btn-group-vertical > .btn + input[type="submit"], .comment-form .btn-group-vertical > input[type="submit"] + input[type="submit"], .search-form .comment-form .btn-group-vertical > .search-submit + input[type="submit"], .comment-form .search-form .btn-group-vertical > .search-submit + input[type="submit"], .search-form .btn-group-vertical > .btn + .search-submit, .comment-form .search-form .btn-group-vertical > input[type="submit"] + .search-submit, .search-form .comment-form .btn-group-vertical > input[type="submit"] + .search-submit, .search-form .btn-group-vertical > .search-submit + .search-submit, .btn-group-vertical > .btn + .btn-group,
-.comment-form .btn-group-vertical > input[type="submit"] + .btn-group, .search-form .btn-group-vertical > .search-submit + .btn-group, .btn-group-vertical > .btn-group + .btn,
-.comment-form .btn-group-vertical > .btn-group + input[type="submit"], .search-form .btn-group-vertical > .btn-group + .search-submit, .btn-group-vertical > .btn-group + .btn-group {
+.comment-form .btn-group-vertical > input[type='submit'] + .btn, .search-form .btn-group-vertical > .search-submit + .btn, .comment-form .btn-group-vertical > .btn + input[type='submit'], .comment-form .btn-group-vertical > input[type='submit'] + input[type='submit'], .search-form .comment-form .btn-group-vertical > .search-submit + input[type='submit'], .comment-form .search-form .btn-group-vertical > .search-submit + input[type='submit'], .search-form .btn-group-vertical > .btn + .search-submit, .comment-form .search-form .btn-group-vertical > input[type='submit'] + .search-submit, .search-form .comment-form .btn-group-vertical > input[type='submit'] + .search-submit, .search-form .btn-group-vertical > .search-submit + .search-submit, .btn-group-vertical > .btn + .btn-group,
+.comment-form .btn-group-vertical > input[type='submit'] + .btn-group, .search-form .btn-group-vertical > .search-submit + .btn-group, .btn-group-vertical > .btn-group + .btn,
+.comment-form .btn-group-vertical > .btn-group + input[type='submit'], .search-form .btn-group-vertical > .btn-group + .search-submit, .btn-group-vertical > .btn-group + .btn-group {
   margin-top: -1px;
   margin-left: 0; }
 
 /* line 172, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-group-vertical > .btn:not(:first-child):not(:last-child), .comment-form .btn-group-vertical > input[type="submit"]:not(:first-child):not(:last-child), .search-form .btn-group-vertical > .search-submit:not(:first-child):not(:last-child) {
+.btn-group-vertical > .btn:not(:first-child):not(:last-child), .comment-form .btn-group-vertical > input[type='submit']:not(:first-child):not(:last-child), .search-form .btn-group-vertical > .search-submit:not(:first-child):not(:last-child) {
   border-radius: 0; }
 
 /* line 175, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-group-vertical > .btn:first-child:not(:last-child), .comment-form .btn-group-vertical > input[type="submit"]:first-child:not(:last-child), .search-form .btn-group-vertical > .search-submit:first-child:not(:last-child) {
+.btn-group-vertical > .btn:first-child:not(:last-child), .comment-form .btn-group-vertical > input[type='submit']:first-child:not(:last-child), .search-form .btn-group-vertical > .search-submit:first-child:not(:last-child) {
   border-top-right-radius: 4px;
   border-top-left-radius: 4px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0; }
 
 /* line 179, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-group-vertical > .btn:last-child:not(:first-child), .comment-form .btn-group-vertical > input[type="submit"]:last-child:not(:first-child), .search-form .btn-group-vertical > .search-submit:last-child:not(:first-child) {
+.btn-group-vertical > .btn:last-child:not(:first-child), .comment-form .btn-group-vertical > input[type='submit']:last-child:not(:first-child), .search-form .btn-group-vertical > .search-submit:last-child:not(:first-child) {
   border-top-right-radius: 0;
   border-top-left-radius: 0;
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px; }
 
 /* line 184, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn, .comment-form .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > input[type="submit"], .search-form .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .search-submit {
+.btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn, .comment-form .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > input[type='submit'], .search-form .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .search-submit {
   border-radius: 0; }
 
 /* line 189, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss */
 .btn-group-vertical > .btn-group:first-child:not(:last-child) > .btn:last-child,
-.comment-form .btn-group-vertical > .btn-group:first-child:not(:last-child) > input[type="submit"]:last-child, .search-form .btn-group-vertical > .btn-group:first-child:not(:last-child) > .search-submit:last-child, .btn-group-vertical > .btn-group:first-child:not(:last-child) > .dropdown-toggle {
+.comment-form .btn-group-vertical > .btn-group:first-child:not(:last-child) > input[type='submit']:last-child, .search-form .btn-group-vertical > .btn-group:first-child:not(:last-child) > .search-submit:last-child, .btn-group-vertical > .btn-group:first-child:not(:last-child) > .dropdown-toggle {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0; }
 
 /* line 193, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss */
-.btn-group-vertical > .btn-group:last-child:not(:first-child) > .btn:first-child, .comment-form .btn-group-vertical > .btn-group:last-child:not(:first-child) > input[type="submit"]:first-child, .search-form .btn-group-vertical > .btn-group:last-child:not(:first-child) > .search-submit:first-child {
+.btn-group-vertical > .btn-group:last-child:not(:first-child) > .btn:first-child, .comment-form .btn-group-vertical > .btn-group:last-child:not(:first-child) > input[type='submit']:first-child, .search-form .btn-group-vertical > .btn-group:last-child:not(:first-child) > .search-submit:first-child {
   border-top-right-radius: 0;
   border-top-left-radius: 0; }
 
@@ -4658,12 +4658,12 @@ tbody.collapse.in {
   border-collapse: separate; }
   /* line 207, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss */
   .btn-group-justified > .btn,
-  .comment-form .btn-group-justified > input[type="submit"], .search-form .btn-group-justified > .search-submit, .btn-group-justified > .btn-group {
+  .comment-form .btn-group-justified > input[type='submit'], .search-form .btn-group-justified > .search-submit, .btn-group-justified > .btn-group {
     float: none;
     display: table-cell;
     width: 1%; }
   /* line 212, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss */
-  .btn-group-justified > .btn-group .btn, .btn-group-justified > .btn-group .comment-form input[type="submit"], .comment-form .btn-group-justified > .btn-group input[type="submit"], .btn-group-justified > .btn-group .search-form .search-submit, .search-form .btn-group-justified > .btn-group .search-submit {
+  .btn-group-justified > .btn-group .btn, .btn-group-justified > .btn-group .comment-form input[type='submit'], .comment-form .btn-group-justified > .btn-group input[type='submit'], .btn-group-justified > .btn-group .search-form .search-submit, .search-form .btn-group-justified > .btn-group .search-submit {
     width: 100%; }
   /* line 216, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss */
   .btn-group-justified > .btn-group .dropdown-menu {
@@ -4671,9 +4671,9 @@ tbody.collapse.in {
 
 /* line 238, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_button-groups.scss */
 [data-toggle="buttons"] > .btn input[type="radio"],
-.comment-form [data-toggle="buttons"] > input[type="submit"] input[type="radio"], .search-form [data-toggle="buttons"] > .search-submit input[type="radio"], [data-toggle="buttons"] > .btn input[type="checkbox"],
-.comment-form [data-toggle="buttons"] > input[type="submit"] input[type="checkbox"], .search-form [data-toggle="buttons"] > .search-submit input[type="checkbox"], [data-toggle="buttons"] > .btn-group > .btn input[type="radio"],
-.comment-form [data-toggle="buttons"] > .btn-group > input[type="submit"] input[type="radio"], .search-form [data-toggle="buttons"] > .btn-group > .search-submit input[type="radio"], [data-toggle="buttons"] > .btn-group > .btn input[type="checkbox"], .comment-form [data-toggle="buttons"] > .btn-group > input[type="submit"] input[type="checkbox"], .search-form [data-toggle="buttons"] > .btn-group > .search-submit input[type="checkbox"] {
+.comment-form [data-toggle="buttons"] > input[type='submit'] input[type="radio"], .search-form [data-toggle="buttons"] > .search-submit input[type="radio"], [data-toggle="buttons"] > .btn input[type="checkbox"],
+.comment-form [data-toggle="buttons"] > input[type='submit'] input[type="checkbox"], .search-form [data-toggle="buttons"] > .search-submit input[type="checkbox"], [data-toggle="buttons"] > .btn-group > .btn input[type="radio"],
+.comment-form [data-toggle="buttons"] > .btn-group > input[type='submit'] input[type="radio"], .search-form [data-toggle="buttons"] > .btn-group > .search-submit input[type="radio"], [data-toggle="buttons"] > .btn-group > .btn input[type="checkbox"], .comment-form [data-toggle="buttons"] > .btn-group > input[type='submit'] input[type="checkbox"], .search-form [data-toggle="buttons"] > .btn-group > .search-submit input[type="checkbox"] {
   position: absolute;
   clip: rect(0, 0, 0, 0);
   pointer-events: none; }
@@ -4689,9 +4689,9 @@ tbody.collapse.in {
     padding-left: 0;
     padding-right: 0; }
   /* line 19, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_input-groups.scss */
-  .input-group .form-control, .input-group .comment-form input[type="text"], .comment-form .input-group input[type="text"],
-  .input-group .comment-form input[type="email"], .comment-form .input-group input[type="email"],
-  .input-group .comment-form input[type="url"], .comment-form .input-group input[type="url"],
+  .input-group .form-control, .input-group .comment-form input[type='text'], .comment-form .input-group input[type='text'],
+  .input-group .comment-form input[type='email'], .comment-form .input-group input[type='email'],
+  .input-group .comment-form input[type='url'], .comment-form .input-group input[type='url'],
   .input-group .comment-form textarea, .comment-form .input-group textarea, .input-group .search-form .search-field, .search-form .input-group .search-field {
     position: relative;
     z-index: 2;
@@ -4699,26 +4699,26 @@ tbody.collapse.in {
     width: 100%;
     margin-bottom: 0; }
     /* line 33, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_input-groups.scss */
-    .input-group .form-control:focus, .input-group .comment-form input[type="text"]:focus, .comment-form .input-group input[type="text"]:focus,
-    .input-group .comment-form input[type="email"]:focus, .comment-form .input-group input[type="email"]:focus,
-    .input-group .comment-form input[type="url"]:focus, .comment-form .input-group input[type="url"]:focus,
+    .input-group .form-control:focus, .input-group .comment-form input[type='text']:focus, .comment-form .input-group input[type='text']:focus,
+    .input-group .comment-form input[type='email']:focus, .comment-form .input-group input[type='email']:focus,
+    .input-group .comment-form input[type='url']:focus, .comment-form .input-group input[type='url']:focus,
     .input-group .comment-form textarea:focus, .comment-form .input-group textarea:focus, .input-group .search-form .search-field:focus, .search-form .input-group .search-field:focus {
       z-index: 3; }
 
 /* line 60, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_input-groups.scss */
 .input-group-addon,
 .input-group-btn,
-.input-group .form-control, .input-group .comment-form input[type="text"], .comment-form .input-group input[type="text"],
-.input-group .comment-form input[type="email"], .comment-form .input-group input[type="email"],
-.input-group .comment-form input[type="url"], .comment-form .input-group input[type="url"],
+.input-group .form-control, .input-group .comment-form input[type='text'], .comment-form .input-group input[type='text'],
+.input-group .comment-form input[type='email'], .comment-form .input-group input[type='email'],
+.input-group .comment-form input[type='url'], .comment-form .input-group input[type='url'],
 .input-group .comment-form textarea, .comment-form .input-group textarea, .input-group .search-form .search-field, .search-form .input-group .search-field {
   display: table-cell; }
   /* line 63, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_input-groups.scss */
   .input-group-addon:not(:first-child):not(:last-child),
   .input-group-btn:not(:first-child):not(:last-child),
-  .input-group .form-control:not(:first-child):not(:last-child), .input-group .comment-form input[type="text"]:not(:first-child):not(:last-child), .comment-form .input-group input[type="text"]:not(:first-child):not(:last-child),
-  .input-group .comment-form input[type="email"]:not(:first-child):not(:last-child), .comment-form .input-group input[type="email"]:not(:first-child):not(:last-child),
-  .input-group .comment-form input[type="url"]:not(:first-child):not(:last-child), .comment-form .input-group input[type="url"]:not(:first-child):not(:last-child),
+  .input-group .form-control:not(:first-child):not(:last-child), .input-group .comment-form input[type='text']:not(:first-child):not(:last-child), .comment-form .input-group input[type='text']:not(:first-child):not(:last-child),
+  .input-group .comment-form input[type='email']:not(:first-child):not(:last-child), .comment-form .input-group input[type='email']:not(:first-child):not(:last-child),
+  .input-group .comment-form input[type='url']:not(:first-child):not(:last-child), .comment-form .input-group input[type='url']:not(:first-child):not(:last-child),
   .input-group .comment-form textarea:not(:first-child):not(:last-child), .comment-form .input-group textarea:not(:first-child):not(:last-child), .input-group .search-form .search-field:not(:first-child):not(:last-child), .search-form .input-group .search-field:not(:first-child):not(:last-child) {
     border-radius: 0; }
 
@@ -4741,20 +4741,20 @@ tbody.collapse.in {
   border: 1px solid #ccc;
   border-radius: 4px; }
   /* line 89, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_input-groups.scss */
-  .input-group-addon.input-sm, .comment-form .input-group-sm > input.input-group-addon[type="text"],
-  .comment-form .input-group-sm > input.input-group-addon[type="email"],
-  .comment-form .input-group-sm > input.input-group-addon[type="url"],
+  .input-group-addon.input-sm, .comment-form .input-group-sm > input.input-group-addon[type='text'],
+  .comment-form .input-group-sm > input.input-group-addon[type='email'],
+  .comment-form .input-group-sm > input.input-group-addon[type='url'],
   .comment-form .input-group-sm > textarea.input-group-addon, .search-form .input-group-sm > .input-group-addon.search-field, .input-group-sm > .input-group-addon,
-  .input-group-sm > .input-group-btn > .input-group-addon.btn, .comment-form .input-group-sm > .input-group-btn > input.input-group-addon[type="submit"], .search-form .input-group-sm > .input-group-btn > .input-group-addon.search-submit {
+  .input-group-sm > .input-group-btn > .input-group-addon.btn, .comment-form .input-group-sm > .input-group-btn > input.input-group-addon[type='submit'], .search-form .input-group-sm > .input-group-btn > .input-group-addon.search-submit {
     padding: 5px 10px;
     font-size: 12px;
     border-radius: 3px; }
   /* line 94, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_input-groups.scss */
-  .input-group-addon.input-lg, .comment-form .input-group-lg > input.input-group-addon[type="text"],
-  .comment-form .input-group-lg > input.input-group-addon[type="email"],
-  .comment-form .input-group-lg > input.input-group-addon[type="url"],
+  .input-group-addon.input-lg, .comment-form .input-group-lg > input.input-group-addon[type='text'],
+  .comment-form .input-group-lg > input.input-group-addon[type='email'],
+  .comment-form .input-group-lg > input.input-group-addon[type='url'],
   .comment-form .input-group-lg > textarea.input-group-addon, .search-form .input-group-lg > .input-group-addon.search-field, .input-group-lg > .input-group-addon,
-  .input-group-lg > .input-group-btn > .input-group-addon.btn, .comment-form .input-group-lg > .input-group-btn > input.input-group-addon[type="submit"], .search-form .input-group-lg > .input-group-btn > .input-group-addon.search-submit {
+  .input-group-lg > .input-group-btn > .input-group-addon.btn, .comment-form .input-group-lg > .input-group-btn > input.input-group-addon[type='submit'], .search-form .input-group-lg > .input-group-btn > .input-group-addon.search-submit {
     padding: 10px 16px;
     font-size: 18px;
     border-radius: 6px; }
@@ -4765,20 +4765,20 @@ tbody.collapse.in {
 
 /* line 114, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_input-groups.scss */
 .input-group .form-control:first-child,
-.input-group .comment-form input[type="text"]:first-child,
-.comment-form .input-group input[type="text"]:first-child,
-.input-group .comment-form input[type="email"]:first-child,
-.comment-form .input-group input[type="email"]:first-child,
-.input-group .comment-form input[type="url"]:first-child,
-.comment-form .input-group input[type="url"]:first-child,
+.input-group .comment-form input[type='text']:first-child,
+.comment-form .input-group input[type='text']:first-child,
+.input-group .comment-form input[type='email']:first-child,
+.comment-form .input-group input[type='email']:first-child,
+.input-group .comment-form input[type='url']:first-child,
+.comment-form .input-group input[type='url']:first-child,
 .input-group .comment-form textarea:first-child,
 .comment-form .input-group textarea:first-child, .input-group .search-form .search-field:first-child,
 .search-form .input-group .search-field:first-child, .input-group-addon:first-child,
 .input-group-btn:first-child > .btn,
-.comment-form .input-group-btn:first-child > input[type="submit"], .search-form .input-group-btn:first-child > .search-submit, .input-group-btn:first-child > .btn-group > .btn,
-.comment-form .input-group-btn:first-child > .btn-group > input[type="submit"], .search-form .input-group-btn:first-child > .btn-group > .search-submit, .input-group-btn:first-child > .dropdown-toggle,
+.comment-form .input-group-btn:first-child > input[type='submit'], .search-form .input-group-btn:first-child > .search-submit, .input-group-btn:first-child > .btn-group > .btn,
+.comment-form .input-group-btn:first-child > .btn-group > input[type='submit'], .search-form .input-group-btn:first-child > .btn-group > .search-submit, .input-group-btn:first-child > .dropdown-toggle,
 .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle),
-.comment-form .input-group-btn:last-child > input[type="submit"]:not(:last-child):not(.dropdown-toggle), .search-form .input-group-btn:last-child > .search-submit:not(:last-child):not(.dropdown-toggle), .input-group-btn:last-child > .btn-group:not(:last-child) > .btn, .comment-form .input-group-btn:last-child > .btn-group:not(:last-child) > input[type="submit"], .search-form .input-group-btn:last-child > .btn-group:not(:last-child) > .search-submit {
+.comment-form .input-group-btn:last-child > input[type='submit']:not(:last-child):not(.dropdown-toggle), .search-form .input-group-btn:last-child > .search-submit:not(:last-child):not(.dropdown-toggle), .input-group-btn:last-child > .btn-group:not(:last-child) > .btn, .comment-form .input-group-btn:last-child > .btn-group:not(:last-child) > input[type='submit'], .search-form .input-group-btn:last-child > .btn-group:not(:last-child) > .search-submit {
   border-bottom-right-radius: 0;
   border-top-right-radius: 0; }
 
@@ -4788,20 +4788,20 @@ tbody.collapse.in {
 
 /* line 126, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_input-groups.scss */
 .input-group .form-control:last-child,
-.input-group .comment-form input[type="text"]:last-child,
-.comment-form .input-group input[type="text"]:last-child,
-.input-group .comment-form input[type="email"]:last-child,
-.comment-form .input-group input[type="email"]:last-child,
-.input-group .comment-form input[type="url"]:last-child,
-.comment-form .input-group input[type="url"]:last-child,
+.input-group .comment-form input[type='text']:last-child,
+.comment-form .input-group input[type='text']:last-child,
+.input-group .comment-form input[type='email']:last-child,
+.comment-form .input-group input[type='email']:last-child,
+.input-group .comment-form input[type='url']:last-child,
+.comment-form .input-group input[type='url']:last-child,
 .input-group .comment-form textarea:last-child,
 .comment-form .input-group textarea:last-child, .input-group .search-form .search-field:last-child,
 .search-form .input-group .search-field:last-child, .input-group-addon:last-child,
 .input-group-btn:last-child > .btn,
-.comment-form .input-group-btn:last-child > input[type="submit"], .search-form .input-group-btn:last-child > .search-submit, .input-group-btn:last-child > .btn-group > .btn,
-.comment-form .input-group-btn:last-child > .btn-group > input[type="submit"], .search-form .input-group-btn:last-child > .btn-group > .search-submit, .input-group-btn:last-child > .dropdown-toggle,
+.comment-form .input-group-btn:last-child > input[type='submit'], .search-form .input-group-btn:last-child > .search-submit, .input-group-btn:last-child > .btn-group > .btn,
+.comment-form .input-group-btn:last-child > .btn-group > input[type='submit'], .search-form .input-group-btn:last-child > .btn-group > .search-submit, .input-group-btn:last-child > .dropdown-toggle,
 .input-group-btn:first-child > .btn:not(:first-child),
-.comment-form .input-group-btn:first-child > input[type="submit"]:not(:first-child), .search-form .input-group-btn:first-child > .search-submit:not(:first-child), .input-group-btn:first-child > .btn-group:not(:first-child) > .btn, .comment-form .input-group-btn:first-child > .btn-group:not(:first-child) > input[type="submit"], .search-form .input-group-btn:first-child > .btn-group:not(:first-child) > .search-submit {
+.comment-form .input-group-btn:first-child > input[type='submit']:not(:first-child), .search-form .input-group-btn:first-child > .search-submit:not(:first-child), .input-group-btn:first-child > .btn-group:not(:first-child) > .btn, .comment-form .input-group-btn:first-child > .btn-group:not(:first-child) > input[type='submit'], .search-form .input-group-btn:first-child > .btn-group:not(:first-child) > .search-submit {
   border-bottom-left-radius: 0;
   border-top-left-radius: 0; }
 
@@ -4815,23 +4815,23 @@ tbody.collapse.in {
   font-size: 0;
   white-space: nowrap; }
   /* line 144, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_input-groups.scss */
-  .input-group-btn > .btn, .comment-form .input-group-btn > input[type="submit"], .search-form .input-group-btn > .search-submit {
+  .input-group-btn > .btn, .comment-form .input-group-btn > input[type='submit'], .search-form .input-group-btn > .search-submit {
     position: relative; }
     /* line 146, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_input-groups.scss */
-    .input-group-btn > .btn + .btn, .comment-form .input-group-btn > input[type="submit"] + .btn, .search-form .input-group-btn > .search-submit + .btn, .comment-form .input-group-btn > .btn + input[type="submit"], .comment-form .input-group-btn > input[type="submit"] + input[type="submit"], .search-form .comment-form .input-group-btn > .search-submit + input[type="submit"], .comment-form .search-form .input-group-btn > .search-submit + input[type="submit"], .search-form .input-group-btn > .btn + .search-submit, .comment-form .search-form .input-group-btn > input[type="submit"] + .search-submit, .search-form .comment-form .input-group-btn > input[type="submit"] + .search-submit, .search-form .input-group-btn > .search-submit + .search-submit {
+    .input-group-btn > .btn + .btn, .comment-form .input-group-btn > input[type='submit'] + .btn, .search-form .input-group-btn > .search-submit + .btn, .comment-form .input-group-btn > .btn + input[type='submit'], .comment-form .input-group-btn > input[type='submit'] + input[type='submit'], .search-form .comment-form .input-group-btn > .search-submit + input[type='submit'], .comment-form .search-form .input-group-btn > .search-submit + input[type='submit'], .search-form .input-group-btn > .btn + .search-submit, .comment-form .search-form .input-group-btn > input[type='submit'] + .search-submit, .search-form .comment-form .input-group-btn > input[type='submit'] + .search-submit, .search-form .input-group-btn > .search-submit + .search-submit {
       margin-left: -1px; }
     /* line 152, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_input-groups.scss */
     .input-group-btn > .btn:hover,
-    .comment-form .input-group-btn > input[type="submit"]:hover, .search-form .input-group-btn > .search-submit:hover, .input-group-btn > .btn:focus,
-    .comment-form .input-group-btn > input[type="submit"]:focus, .search-form .input-group-btn > .search-submit:focus, .input-group-btn > .btn:active, .comment-form .input-group-btn > input[type="submit"]:active, .search-form .input-group-btn > .search-submit:active {
+    .comment-form .input-group-btn > input[type='submit']:hover, .search-form .input-group-btn > .search-submit:hover, .input-group-btn > .btn:focus,
+    .comment-form .input-group-btn > input[type='submit']:focus, .search-form .input-group-btn > .search-submit:focus, .input-group-btn > .btn:active, .comment-form .input-group-btn > input[type='submit']:active, .search-form .input-group-btn > .search-submit:active {
       z-index: 2; }
   /* line 160, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_input-groups.scss */
   .input-group-btn:first-child > .btn,
-  .comment-form .input-group-btn:first-child > input[type="submit"], .search-form .input-group-btn:first-child > .search-submit, .input-group-btn:first-child > .btn-group {
+  .comment-form .input-group-btn:first-child > input[type='submit'], .search-form .input-group-btn:first-child > .search-submit, .input-group-btn:first-child > .btn-group {
     margin-right: -1px; }
   /* line 166, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_input-groups.scss */
   .input-group-btn:last-child > .btn,
-  .comment-form .input-group-btn:last-child > input[type="submit"], .search-form .input-group-btn:last-child > .search-submit, .input-group-btn:last-child > .btn-group {
+  .comment-form .input-group-btn:last-child > input[type='submit'], .search-form .input-group-btn:last-child > .search-submit, .input-group-btn:last-child > .btn-group {
     z-index: 2;
     margin-left: -1px; }
 
@@ -5241,9 +5241,9 @@ tbody.collapse.in {
       margin-bottom: 0;
       vertical-align: middle; }
     /* line 485, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
-    .navbar-form .form-control, .navbar-form .comment-form input[type="text"], .comment-form .navbar-form input[type="text"],
-    .navbar-form .comment-form input[type="email"], .comment-form .navbar-form input[type="email"],
-    .navbar-form .comment-form input[type="url"], .comment-form .navbar-form input[type="url"],
+    .navbar-form .form-control, .navbar-form .comment-form input[type='text'], .comment-form .navbar-form input[type='text'],
+    .navbar-form .comment-form input[type='email'], .comment-form .navbar-form input[type='email'],
+    .navbar-form .comment-form input[type='url'], .comment-form .navbar-form input[type='url'],
     .navbar-form .comment-form textarea, .comment-form .navbar-form textarea, .navbar-form .search-form .search-field, .search-form .navbar-form .search-field {
       display: inline-block;
       width: auto;
@@ -5258,15 +5258,15 @@ tbody.collapse.in {
       /* line 502, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
       .navbar-form .input-group .input-group-addon,
       .navbar-form .input-group .input-group-btn,
-      .navbar-form .input-group .form-control, .navbar-form .input-group .comment-form input[type="text"], .comment-form .navbar-form .input-group input[type="text"],
-      .navbar-form .input-group .comment-form input[type="email"], .comment-form .navbar-form .input-group input[type="email"],
-      .navbar-form .input-group .comment-form input[type="url"], .comment-form .navbar-form .input-group input[type="url"],
+      .navbar-form .input-group .form-control, .navbar-form .input-group .comment-form input[type='text'], .comment-form .navbar-form .input-group input[type='text'],
+      .navbar-form .input-group .comment-form input[type='email'], .comment-form .navbar-form .input-group input[type='email'],
+      .navbar-form .input-group .comment-form input[type='url'], .comment-form .navbar-form .input-group input[type='url'],
       .navbar-form .input-group .comment-form textarea, .comment-form .navbar-form .input-group textarea, .navbar-form .input-group .search-form .search-field, .search-form .navbar-form .input-group .search-field {
         width: auto; }
     /* line 508, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
-    .navbar-form .input-group > .form-control, .navbar-form .comment-form .input-group > input[type="text"], .comment-form .navbar-form .input-group > input[type="text"],
-    .navbar-form .comment-form .input-group > input[type="email"], .comment-form .navbar-form .input-group > input[type="email"],
-    .navbar-form .comment-form .input-group > input[type="url"], .comment-form .navbar-form .input-group > input[type="url"],
+    .navbar-form .input-group > .form-control, .navbar-form .comment-form .input-group > input[type='text'], .comment-form .navbar-form .input-group > input[type='text'],
+    .navbar-form .comment-form .input-group > input[type='email'], .comment-form .navbar-form .input-group > input[type='email'],
+    .navbar-form .comment-form .input-group > input[type='url'], .comment-form .navbar-form .input-group > input[type='url'],
     .navbar-form .comment-form .input-group > textarea, .comment-form .navbar-form .input-group > textarea, .navbar-form .search-form .input-group > .search-field, .search-form .navbar-form .input-group > .search-field {
       width: 100%; }
     /* line 512, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss */
@@ -5330,11 +5330,11 @@ tbody.collapse.in {
   margin-top: 8px;
   margin-bottom: 8px; }
   /* line 346, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
-  .navbar-btn.btn-sm, .btn-group-sm > .navbar-btn.btn, .comment-form .btn-group-sm > input.navbar-btn[type="submit"], .search-form .btn-group-sm > .navbar-btn.search-submit {
+  .navbar-btn.btn-sm, .btn-group-sm > .navbar-btn.btn, .comment-form .btn-group-sm > input.navbar-btn[type='submit'], .search-form .btn-group-sm > .navbar-btn.search-submit {
     margin-top: 10px;
     margin-bottom: 10px; }
   /* line 349, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
-  .navbar-btn.btn-xs, .btn-group-xs > .navbar-btn.btn, .comment-form .btn-group-xs > input.navbar-btn[type="submit"], .search-form .btn-group-xs > .navbar-btn.search-submit {
+  .navbar-btn.btn-xs, .btn-group-xs > .navbar-btn.btn, .comment-form .btn-group-xs > input.navbar-btn[type='submit'], .search-form .btn-group-xs > .navbar-btn.search-submit {
     margin-top: 14px;
     margin-bottom: 14px; }
 
@@ -5744,7 +5744,7 @@ tbody.collapse.in {
   .label:empty {
     display: none; }
   /* line 25, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_labels.scss */
-  .btn .label, .comment-form input[type="submit"] .label, .search-form .search-submit .label {
+  .btn .label, .comment-form input[type='submit'] .label, .search-form .search-submit .label {
     position: relative;
     top: -1px; }
 
@@ -5821,13 +5821,13 @@ a.label:focus {
   .badge:empty {
     display: none; }
   /* line 27, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_badges.scss */
-  .btn .badge, .comment-form input[type="submit"] .badge, .search-form .search-submit .badge {
+  .btn .badge, .comment-form input[type='submit'] .badge, .search-form .search-submit .badge {
     position: relative;
     top: -1px; }
   /* line 33, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_badges.scss */
   .btn-xs .badge,
   .btn-group-xs > .btn .badge,
-  .comment-form .btn-group-xs > input[type="submit"] .badge, .search-form .btn-group-xs > .search-submit .badge, .btn-group-xs > .btn .badge, .comment-form .btn-group-xs > input[type="submit"] .badge, .search-form .btn-group-xs > .search-submit .badge {
+  .comment-form .btn-group-xs > input[type='submit'] .badge, .search-form .btn-group-xs > .search-submit .badge, .btn-group-xs > .btn .badge, .comment-form .btn-group-xs > input[type='submit'] .badge, .search-form .btn-group-xs > .search-submit .badge {
     top: 0;
     padding: 1px 5px; }
   /* line 42, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_badges.scss */
@@ -6948,11 +6948,11 @@ button.close {
   .modal-footer:after {
     clear: both; }
   /* line 110, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
-  .modal-footer .btn + .btn, .modal-footer .comment-form input[type="submit"] + .btn, .comment-form .modal-footer input[type="submit"] + .btn, .modal-footer .search-form .search-submit + .btn, .search-form .modal-footer .search-submit + .btn, .modal-footer .comment-form .btn + input[type="submit"], .comment-form .modal-footer .btn + input[type="submit"], .modal-footer .comment-form input[type="submit"] + input[type="submit"], .comment-form .modal-footer input[type="submit"] + input[type="submit"], .modal-footer .search-form .comment-form .search-submit + input[type="submit"], .comment-form .modal-footer .search-form .search-submit + input[type="submit"], .search-form .modal-footer .comment-form .search-submit + input[type="submit"], .comment-form .search-form .modal-footer .search-submit + input[type="submit"], .modal-footer .search-form .btn + .search-submit, .search-form .modal-footer .btn + .search-submit, .modal-footer .comment-form .search-form input[type="submit"] + .search-submit, .search-form .modal-footer .comment-form input[type="submit"] + .search-submit, .comment-form .modal-footer .search-form input[type="submit"] + .search-submit, .search-form .comment-form .modal-footer input[type="submit"] + .search-submit, .modal-footer .search-form .search-submit + .search-submit, .search-form .modal-footer .search-submit + .search-submit {
+  .modal-footer .btn + .btn, .modal-footer .comment-form input[type='submit'] + .btn, .comment-form .modal-footer input[type='submit'] + .btn, .modal-footer .search-form .search-submit + .btn, .search-form .modal-footer .search-submit + .btn, .modal-footer .comment-form .btn + input[type='submit'], .comment-form .modal-footer .btn + input[type='submit'], .modal-footer .comment-form input[type='submit'] + input[type='submit'], .comment-form .modal-footer input[type='submit'] + input[type='submit'], .modal-footer .search-form .comment-form .search-submit + input[type='submit'], .comment-form .modal-footer .search-form .search-submit + input[type='submit'], .search-form .modal-footer .comment-form .search-submit + input[type='submit'], .comment-form .search-form .modal-footer .search-submit + input[type='submit'], .modal-footer .search-form .btn + .search-submit, .search-form .modal-footer .btn + .search-submit, .modal-footer .comment-form .search-form input[type='submit'] + .search-submit, .search-form .modal-footer .comment-form input[type='submit'] + .search-submit, .comment-form .modal-footer .search-form input[type='submit'] + .search-submit, .search-form .comment-form .modal-footer input[type='submit'] + .search-submit, .modal-footer .search-form .search-submit + .search-submit, .search-form .modal-footer .search-submit + .search-submit {
     margin-left: 5px;
     margin-bottom: 0; }
   /* line 115, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
-  .modal-footer .btn-group .btn + .btn, .modal-footer .btn-group .comment-form input[type="submit"] + .btn, .comment-form .modal-footer .btn-group input[type="submit"] + .btn, .modal-footer .btn-group .search-form .search-submit + .btn, .search-form .modal-footer .btn-group .search-submit + .btn, .modal-footer .btn-group .comment-form .btn + input[type="submit"], .comment-form .modal-footer .btn-group .btn + input[type="submit"], .modal-footer .btn-group .comment-form input[type="submit"] + input[type="submit"], .comment-form .modal-footer .btn-group input[type="submit"] + input[type="submit"], .modal-footer .btn-group .search-form .comment-form .search-submit + input[type="submit"], .comment-form .modal-footer .btn-group .search-form .search-submit + input[type="submit"], .search-form .modal-footer .btn-group .comment-form .search-submit + input[type="submit"], .comment-form .search-form .modal-footer .btn-group .search-submit + input[type="submit"], .modal-footer .btn-group .search-form .btn + .search-submit, .search-form .modal-footer .btn-group .btn + .search-submit, .modal-footer .btn-group .comment-form .search-form input[type="submit"] + .search-submit, .search-form .modal-footer .btn-group .comment-form input[type="submit"] + .search-submit, .comment-form .modal-footer .btn-group .search-form input[type="submit"] + .search-submit, .search-form .comment-form .modal-footer .btn-group input[type="submit"] + .search-submit, .modal-footer .btn-group .search-form .search-submit + .search-submit, .search-form .modal-footer .btn-group .search-submit + .search-submit {
+  .modal-footer .btn-group .btn + .btn, .modal-footer .btn-group .comment-form input[type='submit'] + .btn, .comment-form .modal-footer .btn-group input[type='submit'] + .btn, .modal-footer .btn-group .search-form .search-submit + .btn, .search-form .modal-footer .btn-group .search-submit + .btn, .modal-footer .btn-group .comment-form .btn + input[type='submit'], .comment-form .modal-footer .btn-group .btn + input[type='submit'], .modal-footer .btn-group .comment-form input[type='submit'] + input[type='submit'], .comment-form .modal-footer .btn-group input[type='submit'] + input[type='submit'], .modal-footer .btn-group .search-form .comment-form .search-submit + input[type='submit'], .comment-form .modal-footer .btn-group .search-form .search-submit + input[type='submit'], .search-form .modal-footer .btn-group .comment-form .search-submit + input[type='submit'], .comment-form .search-form .modal-footer .btn-group .search-submit + input[type='submit'], .modal-footer .btn-group .search-form .btn + .search-submit, .search-form .modal-footer .btn-group .btn + .search-submit, .modal-footer .btn-group .comment-form .search-form input[type='submit'] + .search-submit, .search-form .modal-footer .btn-group .comment-form input[type='submit'] + .search-submit, .comment-form .modal-footer .btn-group .search-form input[type='submit'] + .search-submit, .search-form .comment-form .modal-footer .btn-group input[type='submit'] + .search-submit, .modal-footer .btn-group .search-form .search-submit + .search-submit, .search-form .modal-footer .btn-group .search-submit + .search-submit {
     margin-left: -1px; }
   /* line 119, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss */
   .modal-footer .btn-block + .btn-block {
@@ -7451,7 +7451,7 @@ button.close {
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); }
   /* line 229, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss */
-  .carousel-caption .btn, .carousel-caption .comment-form input[type="submit"], .comment-form .carousel-caption input[type="submit"], .carousel-caption .search-form .search-submit, .search-form .carousel-caption .search-submit {
+  .carousel-caption .btn, .carousel-caption .comment-form input[type='submit'], .comment-form .carousel-caption input[type='submit'], .carousel-caption .search-form .search-submit, .search-form .carousel-caption .search-submit {
     text-shadow: none; }
 
 @media screen and (min-width: 768px) {
@@ -7765,16 +7765,16 @@ button.close {
 /* line 10, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/common/_global.scss */
 html,
 body {
-  margin: 0;
-  padding: 0;
+  font-family: 'Open Sans', sans-serif;
   height: 100%;
-  font-family: 'Open Sans', sans-serif; }
+  margin: 0;
+  padding: 0; }
 
-/* line 17, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/common/_global.scss */
+/* line 19, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/common/_global.scss */
 *:before {
   box-sizing: content-box !important; }
 
-/* line 36, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/common/_global.scss */
+/* line 43, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/common/_global.scss */
 .navbar-custom ul > li {
   display: inline-table; }
 
@@ -7783,11 +7783,11 @@ body {
   padding-left: 0;
   list-style: none; }
 
-/* line 4, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_comments.scss */
+/* line 5, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_comments.scss */
 .comment-list ol {
   list-style: none; }
 
-/* line 5, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_forms.scss */
+/* line 6, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_forms.scss */
 .search-form label {
   font-weight: normal; }
 
@@ -7802,7 +7802,7 @@ body {
     .main {
       float: left;
       width: 100%; } }
-  /* line 5, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_grid.scss */
+  /* line 6, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_grid.scss */
   .sidebar-right .main,
   .sidebar-left .main {
     position: relative;
@@ -7810,244 +7810,247 @@ body {
     padding-left: 15px;
     padding-right: 15px; }
     @media (min-width: 768px) {
-      /* line 5, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_grid.scss */
+      /* line 6, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_grid.scss */
       .sidebar-right .main,
       .sidebar-left .main {
         float: left;
         width: 66.66667%; } }
-  /* line 8, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_grid.scss */
+  /* line 10, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_grid.scss */
   .sidebar-left-right .main {
     position: relative;
     min-height: 1px;
     padding-left: 15px;
     padding-right: 15px; }
     @media (min-width: 768px) {
-      /* line 8, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_grid.scss */
+      /* line 10, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_grid.scss */
       .sidebar-left-right .main {
         float: left;
         width: 50%; } }
 
-/* line 13, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_grid.scss */
+/* line 16, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_grid.scss */
 .sidebar {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px; }
   @media (min-width: 768px) {
-    /* line 13, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_grid.scss */
+    /* line 16, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_grid.scss */
     .sidebar {
       float: left;
       width: 33.33333%; } }
-  /* line 15, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_grid.scss */
+  /* line 19, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_grid.scss */
   .sidebar-left-right .sidebar {
     position: relative;
     min-height: 1px;
     padding-left: 15px;
     padding-right: 15px; }
     @media (min-width: 768px) {
-      /* line 15, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_grid.scss */
+      /* line 19, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_grid.scss */
       .sidebar-left-right .sidebar {
         float: left;
         width: 25%; } }
 
 /* line 1, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .navbar-custom {
-  width: 100%;
-  top: 0;
   z-index: 999999;
-  border-radius: 0 !important;
+  top: 0;
+  width: 100%;
   margin-bottom: 0;
-  transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out; }
-  /* line 11, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
-  .navbar-custom .brand {
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  border-radius: 0 !important; }
+  /* line 15, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+  .navbar-custom
+.brand {
     display: inline-block; }
 
-/* line 17, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 22, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .navbar .brand a,
 .navbar .cssmenu ul {
   margin-top: 10px;
   margin-bottom: 10px; }
-  /* line 20, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
-  .sticky-header .navbar .brand a,
+  /* line 26, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+  .sticky-header .navbar .brand a
+,
   .sticky-header .navbar .cssmenu ul {
-    margin-top: 0px !important;
-    margin-bottom: 0px !important; }
+    margin-top: 0 !important;
+    margin-bottom: 0 !important; }
 
-/* line 26, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 33, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu {
-  float: right;
-  display: inline-block; }
+  display: inline-block;
+  float: right; }
 
-/* line 35, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 43, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu,
 .cssmenu ul,
 .cssmenu ul li,
 .cssmenu ul li a,
 .cssmenu .menu-button {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  list-style: none;
   line-height: 1;
-  display: block;
   position: relative;
+  display: block;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 0; }
 
-/* line 49, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 63, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu:after,
 .cssmenu > ul:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
   line-height: 0;
-  height: 0; }
+  display: block;
+  visibility: hidden;
+  clear: both;
+  height: 0;
+  content: '.'; }
 
-/* line 58, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 76, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu .menu-button {
   display: none; }
 
-/* line 62, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 81, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu {
-  width: auto;
   line-height: 1;
+  width: auto;
   background: transparent; }
 
-/* line 68, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 90, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 #menu-line {
   position: absolute;
   top: 0;
   left: 0;
   height: 3px;
-  background: #009ae1;
   -webkit-transition: all 0.25s ease-out;
   -moz-transition: all 0.25s ease-out;
   -ms-transition: all 0.25s ease-out;
   -o-transition: all 0.25s ease-out;
-  transition: all 0.25s ease-out; }
+  transition: all 0.25s ease-out;
+  background: #009ae1; }
 
-/* line 81, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 107, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu > ul > li {
   float: left; }
 
-/* line 85, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 112, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu.align-center > ul {
   font-size: 0;
   text-align: center; }
 
-/* line 90, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 119, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu.align-center > ul > li {
   display: inline-block;
   float: none; }
 
-/* line 95, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 125, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu.align-center ul ul {
   text-align: left; }
 
-/* line 99, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 130, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu.align-right > ul > li {
   float: right; }
 
-/* line 103, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 135, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu.align-right ul ul {
   text-align: right; }
 
-/* line 107, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 140, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu > ul > li > a {
-  padding: 19px;
   font-size: 12px;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #000000;
+  padding: 19px;
   -webkit-transition: color 0.2s ease;
   -moz-transition: color 0.2s ease;
   -ms-transition: color 0.2s ease;
   -o-transition: color 0.2s ease;
-  transition: color 0.2s ease; }
+  transition: color 0.2s ease;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000; }
 
-/* line 121, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 158, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu > ul > li:hover > a,
 .cssmenu > ul > li.active > a {
   color: #009ae1; }
 
-/* line 125, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 163, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu > ul > li.has-sub > a {
   padding-right: 25px; }
 
-/* line 129, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 168, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu > ul > li.has-sub > a::after {
   position: absolute;
   top: 21px;
   right: 10px;
   width: 4px;
   height: 4px;
-  border-bottom: 1px solid #000000;
-  border-right: 1px solid #000000;
-  content: "";
+  content: '';
+  -webkit-transition: border-color 0.2s ease;
+  -moz-transition: border-color 0.2s ease;
+  -ms-transition: border-color 0.2s ease;
+  -o-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
-  -webkit-transition: border-color 0.2s ease;
-  -moz-transition: border-color 0.2s ease;
-  -ms-transition: border-color 0.2s ease;
-  -o-transition: border-color 0.2s ease;
-  transition: border-color 0.2s ease; }
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000; }
 
-/* line 150, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 193, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu > ul > li.has-sub:hover > a::after {
   border-color: #009ae1; }
 
-/* line 154, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 198, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu ul ul a {
   display: none; }
 
-/* line 158, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 203, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu ul ul {
-  top: 40px;
   position: absolute;
-  display: none;
   z-index: 9999999;
+  top: 40px;
   left: -9999px;
-  -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1); }
+  display: none;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1); }
 
-/* line 168, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
-.sticky-header .navbar .cssmenu ul ul {
-  top: auto; }
-
-/* line 171, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 221, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu li:hover > ul {
   left: auto; }
-  /* line 173, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
-  .cssmenu li:hover > ul a {
+  /* line 224, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+  .cssmenu li:hover > ul
+a {
     display: block; }
 
-/* line 178, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 230, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu.align-right li:hover > ul {
   right: 0; }
 
-/* line 182, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 235, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu ul ul ul {
-  margin-left: -100%;
   top: 0;
-  -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
-  -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
-  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4); }
+  margin-left: -100%;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.4); }
 
-/* line 191, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 246, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+.sticky-header .cssmenu ul ul ul {
+  top: -100%; }
+
+/* line 250, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu.align-right ul ul ul {
-  margin-left: 0;
-  margin-right: 100%; }
+  margin-right: 100%;
+  margin-left: 0; }
 
-/* line 196, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 256, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu ul ul li {
   height: 0;
   -webkit-transition: height 0.2s ease;
@@ -8056,293 +8059,320 @@ body {
   -o-transition: height 0.2s ease;
   transition: height 0.2s ease; }
 
-/* line 205, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 267, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu ul li:hover > ul > li {
   height: 32px; }
 
-/* line 209, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 272, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu ul ul li a {
-  padding: 10px 20px;
-  width: 130px;
   font-size: 12px;
-  background: #ffffff;
-  text-decoration: none;
-  color: #333333;
+  width: 130px;
+  padding: 10px 20px;
   -webkit-transition: color 0.2s ease;
   -moz-transition: color 0.2s ease;
   -ms-transition: color 0.2s ease;
   -o-transition: color 0.2s ease;
-  transition: color 0.2s ease; }
+  transition: color 0.2s ease;
+  text-decoration: none;
+  color: #333;
+  background: #fff; }
 
-/* line 224, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 291, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu ul ul li:hover > a,
 .cssmenu ul ul li a:hover {
   color: #ababab; }
 
-/* line 228, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 296, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu ul ul li.has-sub > a::after {
   position: absolute;
   top: 13px;
   right: 10px;
   width: 4px;
   height: 4px;
-  border-bottom: 1px solid #333333;
-  border-right: 1px solid #333333;
-  content: "";
+  content: '';
+  -webkit-transition: border-color 0.2s ease;
+  -moz-transition: border-color 0.2s ease;
+  -ms-transition: border-color 0.2s ease;
+  -o-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
   -webkit-transform: rotate(135deg);
   -moz-transform: rotate(135deg);
   -ms-transform: rotate(135deg);
   -o-transform: rotate(135deg);
   transform: rotate(135deg);
-  -webkit-transition: border-color 0.2s ease;
-  -moz-transition: border-color 0.2s ease;
-  -ms-transition: border-color 0.2s ease;
-  -o-transition: border-color 0.2s ease;
-  transition: border-color 0.2s ease; }
+  border-right: 1px solid #333;
+  border-bottom: 1px solid #333; }
 
-/* line 249, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 321, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu.align-right ul ul li.has-sub > a::after {
   right: auto;
   left: 10px;
-  border-bottom: 0;
+  border-top: 1px solid #ddd;
   border-right: 0;
-  border-top: 1px solid #dddddd;
-  border-left: 1px solid #dddddd; }
+  border-bottom: 0;
+  border-left: 1px solid #ddd; }
 
-/* line 258, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+/* line 332, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
 .cssmenu ul ul li.has-sub:hover > a::after {
   border-color: #ababab; }
 
 @media all and (max-width: 783px) {
-  /* line 263, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+  /* line 339, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   header .navbar-custom {
     position: fixed; }
-  /* line 266, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+  /* line 343, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   .cssmenu {
     float: right !important; }
-  /* line 269, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+  /* line 347, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   .cssmenu ul {
-    width: 100%;
-    display: none; }
-  /* line 274, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+    display: none;
+    width: 100%; }
+  /* line 354, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   .cssmenu.align-center > ul,
   .cssmenu.align-right ul ul {
     text-align: left; }
-  /* line 279, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+  /* line 360, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   .cssmenu ul li,
   .cssmenu ul ul li,
   .cssmenu ul li:hover > ul > li {
     width: 100%;
     height: auto;
     border-top: 1px solid rgba(120, 120, 120, 0.15); }
-  /* line 285, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+  /* line 368, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   .cssmenu ul li a,
   .cssmenu ul ul li a {
     width: 100%; }
-  /* line 291, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+  /* line 375, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   .cssmenu > ul > li,
   .cssmenu ul ul a,
   .cssmenu.align-center > ul > li,
   .cssmenu.align-right > ul > li {
     display: block; }
-  /* line 294, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+  /* line 379, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   .cssmenu ul ul li a {
-    padding: 20px 20px 20px 30px;
     font-size: 12px;
-    color: #000000;
+    padding: 20px 20px 20px 30px;
+    color: #000;
     background: transparent; }
-  /* line 301, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+  /* line 389, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   .cssmenu ul ul li:hover > a,
   .cssmenu ul ul li a:hover {
-    color: #000000; }
-  /* line 304, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+    color: #000; }
+  /* line 393, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   .cssmenu ul ul ul li a {
     padding-left: 40px; }
-  /* line 308, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+  /* line 398, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   .cssmenu ul ul,
   .cssmenu ul ul ul {
     position: relative;
-    left: 0;
     right: auto;
+    left: 0;
     width: 100%;
     margin: 0;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none; }
-  /* line 319, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+  /* line 412, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   .cssmenu > ul > li.has-sub > a::after,
   .cssmenu ul ul li.has-sub > a::after {
     display: none; }
-  /* line 322, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+  /* line 416, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   #menu-line {
     display: none; }
-  /* line 325, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+  /* line 420, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   .cssmenu .menu-button {
+    font-size: 12px;
     display: block;
     padding: 25px;
-    color: #000000;
     cursor: pointer;
-    font-size: 12px;
-    text-transform: uppercase; }
-  /* line 333, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+    text-transform: uppercase;
+    color: #000; }
+  /* line 433, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   .cssmenu .menu-button::after {
-    content: '';
     position: absolute;
     top: 20px;
     right: 20px;
     display: block;
     width: 15px;
     height: 2px;
-    background: #000000; }
-  /* line 343, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
-  .cssmenu .menu-button::before {
     content: '';
+    background: #000; }
+  /* line 448, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+  .cssmenu .menu-button::before {
     position: absolute;
     top: 25px;
     right: 20px;
     display: block;
     width: 15px;
     height: 3px;
-    border-top: 2px solid #000000;
-    border-bottom: 2px solid #000000; }
-  /* line 354, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+    content: '';
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000; }
+  /* line 464, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   .cssmenu .submenu-button {
     position: absolute;
     z-index: 10;
-    right: 0;
     top: 0;
+    right: 0;
     display: block;
-    border-left: 1px solid rgba(120, 120, 120, 0.15);
-    height: 52px;
     width: 52px;
-    cursor: pointer; }
-  /* line 365, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+    height: 52px;
+    cursor: pointer;
+    border-left: 1px solid rgba(120, 120, 120, 0.15); }
+  /* line 480, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   .cssmenu .submenu-button::after {
-    content: '';
     position: absolute;
+    z-index: 99;
     top: 21px;
     left: 26px;
     display: block;
     width: 1px;
     height: 11px;
-    background: #000000;
-    z-index: 99; }
-  /* line 376, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
-  .cssmenu .submenu-button::before {
     content: '';
+    background: #000; }
+  /* line 496, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+  .cssmenu .submenu-button::before {
     position: absolute;
-    left: 21px;
+    z-index: 99;
     top: 26px;
+    left: 21px;
     display: block;
     width: 11px;
     height: 1px;
-    background: #000000;
-    z-index: 99; }
-  /* line 387, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
+    content: '';
+    background: #000; }
+  /* line 512, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_menu.scss */
   .cssmenu .submenu-button.submenu-opened:after {
     display: none; } }
 
 /* line 5, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_wp-classes.scss */
 .alignnone {
-  margin-left: 0;
-  margin-right: 0;
   max-width: 100%;
-  height: auto; }
+  height: auto;
+  margin-right: 0;
+  margin-left: 0; }
 
-/* line 11, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_wp-classes.scss */
+/* line 12, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_wp-classes.scss */
 .aligncenter {
   display: block;
-  margin: 10px auto;
-  height: auto; }
+  height: auto;
+  margin: 10px auto; }
 
-/* line 17, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_wp-classes.scss */
+/* line 20, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_wp-classes.scss */
 .alignleft,
 .alignright {
-  margin-bottom: 10px;
-  height: auto; }
+  height: auto;
+  margin-bottom: 10px; }
 
 @media (min-width: 768px) {
-  /* line 23, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_wp-classes.scss */
+  /* line 28, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_wp-classes.scss */
   .alignleft {
     float: left;
     margin-right: 10px; }
-  /* line 27, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_wp-classes.scss */
+  /* line 34, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_wp-classes.scss */
   .alignright {
     float: right;
     margin-left: 10px; } }
 
-/* line 37, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_wp-classes.scss */
+/* line 47, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/components/_wp-classes.scss */
 .wp-caption-text {
   padding: 9px; }
 
 /* line 1, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_header.scss */
-#header.sticky-header {
+.sticky-header #header {
+  position: fixed;
+  z-index: 999999;
   top: 0;
   width: 100%;
   height: 54px;
-  z-index: 999999;
-  position: fixed;
-  background: white;
-  -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
-  -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
-  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
-  transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out; }
-  /* line 28, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/common/_global.scss */
-  .admin-bar #header.sticky-header {
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  background: white;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.4); }
+  /* line 33, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/common/_global.scss */
+  .admin-bar .sticky-header #header {
     top: 46px; }
     @media screen and (min-width: 783px) {
-      /* line 28, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/common/_global.scss */
-      .admin-bar #header.sticky-header {
+      /* line 33, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/common/_global.scss */
+      .admin-bar .sticky-header #header {
         top: 32px; } }
 
-/* line 17, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_header.scss */
+/* line 22, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_header.scss */
 #header {
   height: 72px; }
 
 /* line 1, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
 footer.site-footer {
-  margin-bottom: 40px;
-  margin-top: 40px; }
+  margin-top: 70px;
+  margin-bottom: 70px; }
 
-/* line 5, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
+/* line 6, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
 .site-footer-widget-area {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
   display: block;
   margin-left: auto;
   margin-right: auto; }
+
+/* line 10, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
+.site-footer-widget-area.one-widget {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
   @media (min-width: 768px) {
-    /* line 5, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
-    .site-footer-widget-area {
+    /* line 10, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
+    .site-footer-widget-area.one-widget {
+      float: left;
+      width: 100%; } }
+
+/* line 14, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
+.site-footer-widget-area.two-widget {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 768px) {
+    /* line 14, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
+    .site-footer-widget-area.two-widget {
+      float: left;
+      width: 50%; } }
+
+/* line 18, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
+.site-footer-widget-area.three-widget {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 768px) {
+    /* line 18, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
+    .site-footer-widget-area.three-widget {
       float: left;
       width: 33.33333%; } }
 
-/* line 10, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
+/* line 22, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
 .site-footer-widget {
   text-align: center; }
-  /* line 12, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
+  /* line 24, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
   .site-footer-widget section {
     display: inline-block; }
-  /* line 15, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
+  /* line 27, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
   .site-footer-widget ul {
-    text-align: left;
-    padding-left: 0; }
+    padding-left: 0;
+    text-align: left; }
 
-/* line 21, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
+/* line 33, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
 .footer-menu ul ul {
-  top: -100%;
-  z-index: 9999999; }
+  z-index: 9999999;
+  top: -100%; }
 
-/* line 26, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
+/* line 38, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
 .footer-menu ul ul ul {
   margin-left: 100%; }
 
-/* line 30, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
+/* line 42, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
 .footer-menu ul ul li.has-sub > a::after {
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
@@ -8350,19 +8380,23 @@ footer.site-footer {
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg); }
 
-/* line 38, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
+/* line 50, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
 .footer-menu {
   float: left; }
 
-/* line 42, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
+/* line 54, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
 .site-info {
   text-align: center; }
-  /* line 43, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
+  /* line 56, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_footer.scss */
   .site-info p {
     margin: 0; }
 
 /* line 1, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_tinymce.scss */
 body#tinymce {
   margin: 12px !important; }
+
+/* line 1, /Users/anni.d/Work/www/sites/mytemplate/root/wp-content/themes/myTemplate/assets/styles/layouts/_main-content.scss */
+.sticky-header .main-wrapper {
+  padding-top: 54px; }
 
 /*# sourceMappingURL=main.css.map */
